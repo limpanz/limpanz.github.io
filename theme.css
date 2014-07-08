@@ -567,7 +567,7 @@ background: #2E2F2F; /* Old browsers */
     font-size: 12px;
     font-weight: bolder;
 
-background: pink; /* Old browsers */
+background: #2E2F2F; /* Old browsers */
 }
 
 .game-content form.no-visible-fields {
@@ -660,7 +660,6 @@ form input[type=submit],
 
 
     /* internal styling - padding etc. */
-	padding: 3px 7px;
 
     /* typography */
     font-family: Ubuntu Condensed;
