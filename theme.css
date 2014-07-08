@@ -278,7 +278,6 @@ h3 {
     -webkit-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
     box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
 
-background: cyan; /* Old browsers */
 }
 
 .lobby-panel h1 {
@@ -762,7 +761,7 @@ div.uploader span.action
     border: none;
 }
 .game-content form tbody tr:nth-child(even) {
-    /* display, opacity and special effects  NÅN ANNAN VARANNAN RAD */
+    /* display, opacity and special effects  Nï¿½N ANNAN VARANNAN RAD */
     background: rgb(48, 48, 48);
     background: rgba(48, 48, 48, 0.6);
 
