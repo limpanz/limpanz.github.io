@@ -660,6 +660,8 @@ form input[type=submit],
 
 
     /* internal styling - padding etc. */
+	padding: 3px 7px;
+
     /* typography */
     font-family: Ubuntu Condensed;
     font-size: 18px;
