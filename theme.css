@@ -1187,10 +1187,6 @@ body.wysiwyg {
 #bookmark-details #bookmarks {
     border-top: 1px solid #29261c;
     border-bottom: 1px solid #29261c;
-    -moz-box-shadow: 0px 2px 1px -1px #7b7354;
-    -webkit-box-shadow: 0px 2px 1px -1px #7b7354;
-    box-shadow: 0px 2px 1px -1px #7b7354;
-
 }
 
 #royal-command-icon {
