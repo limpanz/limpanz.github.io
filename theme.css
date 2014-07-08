@@ -1042,7 +1042,7 @@ td.news-province-modification {
     -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
     text-shadow: -1px 1px 2px #000, 1px -1px 1px #ffcf68;
 
-    background: yellow; /* Old browsers */
+    background: #2E2F2F; 
 }
 
 .game-content tbody th {
