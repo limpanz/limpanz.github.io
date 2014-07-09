@@ -231,7 +231,6 @@ h3 {
 }
 
 .report-this:hover {
-    color: #c4a112;
     background-color: #eb8921;
 }
 
@@ -268,10 +267,6 @@ h3 {
     /* internal styling - padding etc. */
 
     /* typography */
-    -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    text-shadow: -1px 1px 2px #000, 1px -1px 1px #ffcf68;
-
     /* colors */
     border-color: #555555;
     -moz-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
