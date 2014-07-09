@@ -16,7 +16,7 @@ FOLLOW THIS FORMAT:
 
 @font-face {
     font-family: 'Ubuntu Condensed';
-    src: url('./fonts/ubuntu-c.ttf') format('truetype');
+    src: url('./fonts/ubuntu-c.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,12 +24,12 @@ FOLLOW THIS FORMAT:
 
 body {
     color: white;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-family: Ubuntu-c;
 	background: black;
 
     /* background-image: url(http://images2.layoutsparks.com/1/199651/skulls-dark-black-pattern.jpg);
-    background-repeat: repeat-y;
-    background-position: top left; */
+    background-repeat: repeat-y; 'Trebuchet MS', Helvetica, sans-serif
+    background-position: top left;  */
 	}
 
 
