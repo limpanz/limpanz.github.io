@@ -16,7 +16,7 @@ FOLLOW THIS FORMAT:
 
 @font-face {
     font-family: 'Ubuntu Condensed';
-    src: url('./fonts/ubuntu-c.ttf');
+    src: url('./fonts/Ubuntu-C.ttf');
     font-weight: normal;
     font-style: normal;
 }
