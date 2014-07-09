@@ -178,12 +178,12 @@ background-size: 20px 20px;
 }
 
 a {
-    color: #BBB;
+    color: #EB8921;
     text-decoration: none;
 }
 
 a.highlighted {
-    color: #BBB;
+    color: #EB8921;
 }
 
 a.info-link {
@@ -850,6 +850,8 @@ td.news-province-modification {
 .intel-stale { color: #FFC583; }
 .you { font-weight: bold; }
 .slot-number { font-size: 0.8em; color: #B0B0B0; }
+
+.province-name a { color: #333; }
 
 .provinces-legend {
     font-size: 0.8em;
