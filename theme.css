@@ -851,7 +851,8 @@ td.news-province-modification {
 .you { font-weight: bold; }
 .slot-number { font-size: 0.8em; color: #B0B0B0; }
 
-.province-name a { color: #333; }
+.province-name a { color: #CCC; }
+.province-name a:hover { color: #fff; }
 
 .provinces-legend {
     font-size: 0.8em;
