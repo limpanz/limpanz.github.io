@@ -34,10 +34,6 @@ background-color: #131313;
 background-size: 20px 20px;
 }
 
-#content-area {
-	background: #333;
-}
-
 #header-logo {
     background: url(./images/logo_header.png) no-repeat top left;
     width: 243px;
@@ -724,6 +720,7 @@ td.news-province-modification {
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
 
+background: #444;
 
     /* colors */
     border-color: #333;
