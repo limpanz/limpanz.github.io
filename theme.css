@@ -483,7 +483,7 @@ form input[type=password] {
     background: #fff;
 }
 
-td textarea {
+#id_body {
     border-width: 1px;
     border-color: #d7d7d7;
     padding-left: 3px;
