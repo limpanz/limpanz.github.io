@@ -574,7 +574,7 @@ div.uploader span.action {
 }
 .game-content form tbody tr:nth-child(even) {
     /* display, opacity and special effects*/
-    background: rgb(230, 230, 230)
+    background: #555;
 }
 
 /* KINGDOM NEWS */
