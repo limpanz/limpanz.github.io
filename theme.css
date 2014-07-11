@@ -918,7 +918,6 @@ background: #444;
 div.wysiwyg {
     border: 0px solid #999;
     padding: 5px;
-    background: #333;
 }
 
 div.wysiwyg ul.toolbar li {
@@ -926,6 +925,7 @@ div.wysiwyg ul.toolbar li {
 }
 
 body.wysiwyg {
+    background-color: #333;
     font-size: 12px;
     background-color: white;
 }
