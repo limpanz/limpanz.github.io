@@ -95,6 +95,7 @@ background-size: 20px 20px;
     line-height: 16px;
     background-color: black;
     border: 1px solid white;
+    background-color: #333;
 }
 
 #account-details .account-title
@@ -208,6 +209,7 @@ h3 {
 
     /* colors */
     border-color: #555555;
+    background-color: #333;
 
 }
 
@@ -217,7 +219,7 @@ h3 {
     color: #0361CC;
 }
 .lobby-panel h1 a {
-    color: #0361CC;
+    color: gold;
 }
 
 .lobby-panel h1 a:hover {
