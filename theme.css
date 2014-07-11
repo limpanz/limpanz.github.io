@@ -470,7 +470,6 @@ form ul.errorlist {
     border-color: #555;
 }
 
-form textarea,
 form input[type=text],
 form input[type=password] {
     border-width: 1px;
@@ -483,6 +482,11 @@ form input[type=password] {
     background: #fff;
 }
 
+
+textarea {
+    color: #000;
+    background: #fff;	
+}
 
 
 form .formatted-text {
