@@ -483,6 +483,18 @@ form input[type=password] {
     background: #fff;
 }
 
+.mail-view textarea {
+    border-width: 0px;
+    border-color: #d7d7d7;
+    padding-left: 3px;
+    font-size: 12px;
+    text-align: left;
+
+    color: #000;
+    background: #fff;
+}
+
+
 form .formatted-text {
     color: #000;
     background: #fff;
