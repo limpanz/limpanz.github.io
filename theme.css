@@ -131,7 +131,7 @@ background-size: 20px 20px;
 }
 
 a {
-    color: DeepPink;
+    color: Gold;
     text-decoration: none;
 }
 
@@ -345,30 +345,70 @@ h3 {
 #resource-bar
 {
     /* border styling */
-    border-collapse: collapse;
+    border: 2px solid;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
 
     /* internal styling - padding etc. */
-    padding: 3px 6px 3px 6px;
+
+    /* typography */
+    font-family: Ubuntu Condensed;
+    font-size: 16px;
+
+    -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
+    -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
 
     /* colors */
+    border-color: #2E2F2F;
+
 }
 
+#resource-bar thead {
+	background: #2f4e6f; /* Old browsers */
+    color: #2E2F2F;
+	line-height: 20px;
+    text-align: center;
+    padding: 3px 8px 3px 8px;
+	font-size: 15px
+}
 
-#resource-bar  th,
-#resource-bar  td{
+#resource-bar thead th {
+    font-weight: normal;
+}
+
+#resource-bar tbody th,
+#resource-bar tbody td{
+    width: 98px;
+    border-right: 0px inset #444444;
+    border-bottom: 0px inset #444444;
+
+    padding: 3px 8px 3px 8px;
 
     font-size: 12px;
-    font-weight: lighter;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     text-align: center;
-    border: 1px solid black;
+    color: #fff;
 }
 
+#resource-bar tbody th {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+#resource-bar thead th {
+    width: 98px;
+    border-right: 0px inset #141413;
+    border-bottom: 0px inset #141413;
+}
+
+
 #resource-bar .positive {
-    color: green;
+    color: #8FA94A;
 }
 
 #resource-bar .negative {
-    color: red;
+    color: #d0aeae;
 }
 
 .game-content h2 {
