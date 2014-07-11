@@ -115,8 +115,8 @@ body {
 }
 
 #middle {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     /* border styling */
     border: 1px solid #fff;
     border-radius: 12px;
