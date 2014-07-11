@@ -929,9 +929,8 @@ div.wysiwyg ul.toolbar li {
 }
 
 body.wysiwyg {
-    background-color: #333;
     font-size: 12px;
-    background-color: white;
+    background: white;
 }
 
 #bookmark-header {
