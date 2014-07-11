@@ -483,6 +483,18 @@ form input[type=password] {
     background: #fff;
 }
 
+textarea {
+    border-width: 1px;
+    border-color: #d7d7d7;
+    padding-left: 3px;
+    font-size: 12px;
+    text-align: left;
+
+    color: #000;
+    background: #fff;
+}
+
+
 form input[type=text],
 form input[type=password] {
     height: 16px;
