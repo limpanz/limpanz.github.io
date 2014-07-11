@@ -147,7 +147,7 @@ a:hover {
 h1,
 h2,
 h3 {
-    color: black;
+    color: white;
     font-weight: normal;
 }
 
@@ -413,7 +413,7 @@ h3 {
 
 .game-content h2 {
     /* colors */
-    background-color: rgb(230, 230, 230);
+    background-color: #222;
 }
 
 .game-content h3 {
