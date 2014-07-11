@@ -973,3 +973,5 @@ body.wysiwyg {
     font-size: 14px;
 }
 
+.province-name a { color: #CCC; }
+.province-name a:hover { color: #fff; }
