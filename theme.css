@@ -361,7 +361,6 @@ h3 {
 
     /* colors */
     border-color: #2E2F2F;
-
 }
 
 #resource-bar thead {
@@ -382,6 +381,8 @@ h3 {
     width: 98px;
     border-right: 0px inset #444444;
     border-bottom: 0px inset #444444;
+
+    background: #444;
 
     padding: 3px 8px 3px 8px;
 
@@ -445,7 +446,7 @@ form ul.errorlist {
 }
 
 .game-content form.change-kingdom #royal-commands {
-    border-top: 2px dotted #3B4041;
+    border-top: 1px dotted #3B4041;
 }
 
 .game-content form.change-kingdom #royal-commands table tbody td {
@@ -458,7 +459,7 @@ form ul.errorlist {
 }
 
 .game-content form.change-kingdom.change-kingdom-target {
-    border-top: 2px solid;
+    border-top: 1px solid;
     border-color: #555;
 }
 
