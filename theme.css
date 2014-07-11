@@ -483,16 +483,6 @@ form input[type=password] {
     background: #fff;
 }
 
-.mail-view textarea {
-    border-width: 0px;
-    border-color: #d7d7d7;
-    padding-left: 3px;
-    font-size: 12px;
-    text-align: left;
-
-    color: #000;
-    background: #fff;
-}
 
 
 form .formatted-text {
@@ -926,12 +916,13 @@ background: #444;
 }
 
 div.wysiwyg {
-    border: 1px solid #999;
+    border: 0px solid #999;
     padding: 5px;
+    background: #333;
 }
 
 div.wysiwyg ul.toolbar li {
-    border: 1px outset black;
+    border: 0px outset black;
 }
 
 body.wysiwyg {
