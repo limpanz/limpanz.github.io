@@ -1,4 +1,3 @@
-@import url("uniform.utopia.css");
 
 /*
 FOLLOW THIS FORMAT:
@@ -14,94 +13,46 @@ FOLLOW THIS FORMAT:
 }
 */
 
-@font-face {
-    font-family: 'Ubuntu Condensed';
-    src: url('./fonts/Ubuntu-C.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 body {
-    color: white;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-background:
-linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-background-color: #131313;
-background-size: 20px 20px;
-    /* 
-    background-repeat: repeat-y; 
-    background-position: top left;  */
-	}
-
-
-#middle {
-	background: black;
+    color: #black;
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
 }
 
 #header-logo {
-    background: url(./images/logo_header.png) no-repeat top left;
-    width: 243px;
-    height: 49px;
+    width: 183px;
+    height: 50px;
     position: absolute;
 }
 
 .navigation {
-
-    /* border styling */
-		border-radius: 2px;
-		-moz-border-radius: 2px;
-		-webkit-border-radius: 2px;
-
-    /* internal styling - padding etc. */
-
-    /* typography */
-		font-family: Ubuntu Condensed;
-		font-size: 16px;
-		font-weight: normal;
-		text-align: left;
-
-		/*
-		-moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-		-webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-		text-shadow: -1px 1px 2px #000, 1px -1px 1px #ffcf68;
-		filter: glow(color=#252525,strength=3);
-		*/
-    /* colors */
-	    background: #F5AD28;
+     /* typography */
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
 }
 
 .navigation a {
     text-decoration: none;
-    color: #1E1E1E;
+    color: black;
 }
 
 .navigation a:hover  {
     /* colors */
-    color: white;
 }
 
 #header-navigation div {
-    /* display, opacity and special effects */
+
+}
+
+#header-navigation div:hover a  {
+    /* colors */
 }
 
 #header-navigation div:hover {
-    /* display, opacity and special effects */
-    opacity:1.0;
-    filter:alpha(opacity=100); /* For IE8 and earlier */
-    -moz-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 4px #7c4a14, 0px 8px 10px -6px #fff;;
-    -webkit-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 4px #7c4a14, 0px 8px 10px -6px #fff;;
-    box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000, 0px -8px 8px -6px #fff;
-
 }
 
 #account-container {
-    font-family: Ubuntu Condensed;
     font-size: 16px;
 }
 
@@ -109,103 +60,78 @@ background-size: 20px 20px;
     background: url(./images/anonymous_small.png) no-repeat top left;
 }
 
-#account-header
-{
-    color: #edf2fd;
+#account-header {
 }
 
 #account-header:hover
 {
-	color: black;
-    background-color: #F5AD28;
 }
 
 #account-header.selected
 {
-	color: black;
-    background-color: #F5AD28;
 }
 
 #account-details
 {
     font-size: 12px;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     line-height: 16px;
-    background-color: #F5AD28;
+    background-color: white;
+    border: 1px solid black;
 }
 
 #account-details .account-title
 {
     font-size: 16px;
     font-weight: bolder;
-    font-family: Ubuntu Condensed;
-    border-bottom: 1px solid #29261c;
-    -moz-box-shadow: 0px 2px 1px -1px #7b7354;
-    -webkit-box-shadow: 0px 2px 1px -1px #7b7354;
-    box-shadow: 0px 2px 1px -1px #7b7354;
-
+    border-bottom: 1px solid #103041;
 }
 
 #account-details .alert a {
     color: #ff771c;
-    text-shadow: -1px 1px 2px black;
 }
 
 #account-details a:hover {
-	color: black;
-    box-shadow: -10px 0px 6px -6px #fff;
-
 }
 
 #account-details .account-summary {
     /* internal styling - padding etc. */
-    border-bottom: 1px solid #29261c;
-    -moz-box-shadow: 0px 2px 1px -1px #7b7354;
-    -webkit-box-shadow: 0px 2px 1px -1px #7b7354;
-    box-shadow: 0px 2px 1px -1px #7b7354;
-
 }
 
 #account-details .account-signout
 {
-    border-top: 1px solid #29261c;
-    -moz-box-shadow: inset 0px 2px 1px -1px #7b7354;
-    -webkit-box-shadow: inset 0px 2px 1px -1px #7b7354;
-    box-shadow: inset 0px 2px 1px -1px #7b7354;
+    border-top: 1px solid #103041;
     font-weight: bold;
     text-align: right;
+}
 
+#middle {
+    /* positioning and size */
+    /* border styling */
+    /* internal styling - padding etc. */
+    /* typography */
+    /* colors */
+    /* display, opacity and special effects */
 }
 
 a {
-    color: #EB8921;
+    color: blue;
     text-decoration: none;
 }
 
 a.highlighted {
-    color: #EB8921;
-}
-
-a.info-link {
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    font-size: 14px;
+    color: #E68910;
 }
 
 a:focus,
 a:hover {
-    color: #fff;
+    text-decoration: underline;
 }
 
 h1,
 h2,
 h3 {
-    font-family: Ubuntu Condensed;
-    font-weight: 200;
-    color: #fff;
-    -moz-text-shadow: -1px 1px 2px #000;
-    -webkit-text-shadow: -1px 1px 2px #000;
-    text-shadow: -1px 1px 2px #000;
-    filter: glow(color=#252525,strength=3);
+    color: black;
+    font-weight: normal;
 }
 
 #footer {
@@ -214,11 +140,10 @@ h3 {
 }
 
 .report-this {
-    color: #2e2f2f;
-    background-color: #eb8921;
+    color: #45ACF6;
+    background-color: #18100e;
     border-bottom-left-radius: 8px 8px;
     -moz-border-radius-bottomleft: 8px 8px;
-
 
     -moz-box-shadow: 0px 3px 4px #000;
     -webkit-box-shadow: 0px 3px 4px #000;
@@ -227,26 +152,25 @@ h3 {
     -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=180, Color='#000000')";
     /* For IE 5.5 - 7 */
     filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=180, Color='#000000');
-
 }
 
 .report-this:hover {
-    background-color: #eb8921;
+    color: #7fc3f3;
+    background-color: #2a201d;
 }
 
 .reported-content {
-    border: 0px inset #616161;
-    background-color: tomato;
+    border: 2px inset #616161;
+    background-color: #000000;
 }
 
 .overlay
 {
-    background-color: tomato;
+    background-color: #2f2e2e;
     border:1px solid #666;
     box-shadow:0 0 90px 5px #000;
     -moz-box-shadow:0 0 90px 5px #000;
     -webkit-box-shadow: 0 0 90px #000;
-
 }
 
 .overlay .close
@@ -258,48 +182,38 @@ h3 {
 .lobby-panel,
 .campaigns {
     /* border styling */
-    border: 1px solid;
-    border-radius: 12px;
-    -moz-border-radius: 12px;
-    -webkit-border-radius: 12px;
-
+    border: 2px solid;
 
     /* internal styling - padding etc. */
 
     /* typography */
+
     /* colors */
     border-color: #555555;
-    -moz-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-    -webkit-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-    box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
 
 }
 
 .lobby-panel h1 {
-    font-size: 40px;
-    line-height: 40px;
-    color: #EBE8CD;
+    font-size: 25px;
+    line-height: 25px;
+    color: #0361CC;
+}
+.lobby-panel h1 a {
+    color: #0361CC;
 }
 
 .lobby-panel h1 a:hover {
-    color: #fff;
+
 }
 
 .divider {
-    background-image: url(./images/divider.png);
-    background-repeat: no-repeat;
-    background-position: top center;
 }
 
 .divider-small {
-    background-image: url(./images/divider-small.png);
-    background-repeat: no-repeat;
-    background-position: top center;
 }
 
 .lobby-panel table th {
-    font-family: Ubuntu Condensed;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .lobby-panel table td {
@@ -308,29 +222,29 @@ h3 {
 
 .lobby-panel h2 {
     font-size: 18px;
-    line-height: 30px;
+    line-height: 24px;
 }
 
 .age-changes h3,
 .campaigns h3 {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .recruitment-campaigns h1,
 .race-changes h1,
 .trait-changes h1 {
-    font-size: 40px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 35px;
 }
 
 .race-changes h2,
 .trait-changes h2 {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .campaigns .basic-details .campaign-summary h2{
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .campaigns .basic-details .campaign-summary .highlight-keyword{
@@ -340,83 +254,43 @@ h3 {
 .good {
     color: #90ee90;
 }
-
 .bad {
-    color: #EC7566;
+    color: red;
 }
 
 .message {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 18px;
-
-    /* border styling */
-    border: 0px solid;
-    border-radius: 8px;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-
+    /* positioning and size */
+    border: 1px solid white;
 
     /* internal styling - padding etc. */
     /* typography */
-    font-family: Ubuntu Condensed;
-    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5em;
 }
 
 .good.message
 {
-    color: #fefff7;
-    -moz-text-shadow: -1px 1px 2px #363a19, 1px -1px 2px #363a19;
-    -webkit-text-shadow: -1px 1px 2px #363a19, 1px -1px 2px #363a19;
-    text-shadow: -1px 1px 2px #363a19, 1px -1px 1px #363a19;
-
     /* colors */
-    border-color: #feffea;
-    -moz-box-shadow: 1px -1px 1px 0px #cbd3a9 , -1px 1px 2px #363a19, inset 0px 0px 10px #000;
-    -webkit-box-shadow: 1px -1px 1px 0px #cbd3a9 , -1px 1px 2px #363a19, inset 0px 0px 10px #000;
-    box-shadow: 1px -1px 1px 0px #cbd3a9 , -1px 1px 2px #363a19, inset 0px 0px 10px #000;
-
-background: #718d16;
-
+    background-color: green;
+    color: white;
 }
 
 .bad.message
 {
-    color: #FFFCF7;
-    -moz-text-shadow: -1px 1px 2px #331100, 1px -1px 2px #331100;
-    -webkit-text-shadow: -1px 1px 2px #331100, 1px -1px 2px #331100;
-    text-shadow: -1px 1px 2px #331100, 1px -1px 1px #331100;
-
-    /* colors */
-    border-color: #feffea;
-    -moz-box-shadow: 1px -1px 1px 0px #D3AEA9 , -1px 1px 2px #331100, inset 0px 0px 10px #000;
-    -webkit-box-shadow: 1px -1px 1px 0px #D3AEA9 , -1px 1px 2px #331100, inset 0px 0px 10px #000;
-    box-shadow: 1px -1px 1px 0px #D3AEA9 , -1px 1px 2px #331100, inset 0px 0px 10px #000;
-
-	background: #521802;
-
+    background-color: #400000;
+    color: white;
 }
 
 .info.message
 {
-    color: #FFFCF7;
-    -moz-text-shadow: -1px 1px 2px #362301, 1px -1px 2px #362301;
-    -webkit-text-shadow: -1px 1px 2px #362301, 1px -1px 2px #362301;
-    text-shadow: -1px 1px 2px #362301, 1px -1px 1px #362301;
-
-    /* colors */
-    border-color: #feffea;
-    -moz-box-shadow: 1px -1px 1px 0px #D4C7AF , -1px 1px 2px #362301, inset 0px 0px 10px #000;
-    -webkit-box-shadow: 1px -1px 1px 0px #D4C7AF , -1px 1px 2px #362301, inset 0px 0px 10px #000;
-    box-shadow: 1px -1px 1px 0px #D4C7AF , -1px 1px 2px #362301, inset 0px 0px 10px #000;
-
-    background: #D09734; 
+    background-color: #C46500;
+    color: white;
 }
+
 
 
 /* User profile page
 -------------------------------------------------------------- */
-
 .lobby-panel .statement {
     background: url('./images/province_profile/scroll.png') no-repeat;
 }
@@ -426,7 +300,7 @@ background: #718d16;
 }
 
 .advice-message {
-    color: #a5d387;
+    color: #F93;
 }
 
 .warning {
@@ -438,204 +312,116 @@ background: #718d16;
 }
 
 #game-navigation .current-date {
-
-    padding: 11px 0px;
-	color: #1E1E1E;
-
-    font-family: Ubuntu Condensed;
-    font-size: 16px;
-	font-weight: bold;
-
-    /* border styling */
-    border: 0px solid;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-
-	background: #F5AD28; /* Old browsers */
-	}
+    margin-top: 5px;
+    padding: 15px 0px;
+    font-size: 13px;
+}
 
 #game-navigation a {
-    line-height: 0.8em;
+    line-height: 0.6em;
 }
 
 #game-navigation a:hover {
     box-shadow: -10px 0px 6px -6px #fff;
-
 }
 
 #resource-bar
 {
     /* border styling */
-    border: 2px solid;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
+    border-collapse: collapse;
 
     /* internal styling - padding etc. */
-
-    /* typography */
-    font-family: Ubuntu Condensed;
-    font-size: 16px;
-
-    -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
+    padding: 3px 6px 3px 6px;
 
     /* colors */
-    border-color: #2E2F2F;
-
 }
 
-#resource-bar thead {
-	background: #F5AD28; /* Old browsers */
-    color: #2E2F2F;
-	line-height: 20px;
-    text-align: center;
-    padding: 3px 8px 3px 8px;
-	font-size: 15px
-}
 
-#resource-bar thead th {
-    font-weight: normal;
-}
-
-#resource-bar tbody th,
-#resource-bar tbody td{
-    width: 98px;
-    border-right: 0px inset #444444;
-    border-bottom: 0px inset #444444;
-
-    padding: 3px 8px 3px 8px;
+#resource-bar  th,
+#resource-bar  td{
 
     font-size: 12px;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-weight: lighter;
     text-align: center;
-    color: #fff;
+    border: 1px solid black;
 }
-
-#resource-bar tbody th {
-    font-size: 12px;
-    font-weight: bolder;
-}
-
-#resource-bar thead th {
-    width: 98px;
-    border-right: 0px inset #141413;
-    border-bottom: 0px inset #141413;
-}
-
 
 #resource-bar .positive {
-    color: #8FA94A;
+    color: green;
 }
 
 #resource-bar .negative {
-    color: #d0aeae;
+    color: red;
 }
 
-.game-content form,
 .game-content h2 {
-    border: 0px solid;
-    border-left: 0px;
-    border-right: 0px;
-
-    /* internal styling - padding etc. */
-
     /* colors */
-    border-color: #181818;
-	color: #fff;
-
-	/* BG RUBRIKER */
-background: #2E2F2F; /* Old browsers */
+    background-color: rgb(230, 230, 230);
 }
 
 .game-content h3 {
     font-size: 20px;
-    color: #fff;
-    -moz-text-shadow: -1px 1px 1px #000, 1px -1px 1px #69634D;
-    -webkit-text-shadow: -1px 1px 1px #000, 1px -1px 1px #69634D;
-    text-shadow: -1px 1px 1px #000, 1px -1px 1px #69634D;
 }
 
 .game-content form {
     font-size: 12px;
     font-weight: bolder;
-
-background: #2E2F2F; /* Old browsers */
-}
-
-.game-content form.no-visible-fields {
-    width: auto;
-    background: none;
-    border: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-
 }
 
 form ul.errorlist {
-    color: #e26f80;
+    color: red;
 }
 
 .game-content form.change-kingdom {
     /* typography */
-    font-family: Ubuntu Condensed;
     font-size: 14px;
 }
 
 .game-content form.change-kingdom .change-kingdom-heading {
-    font-size: 24px;
-    filter: glow(color=#252525,strength=3);
-    line-height: 24px;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.game-content form.change-kingdom .change-kingdom-nav a {
+    width: 80px;
+}
+
+.game-content form.change-kingdom #royal-commands {
+    border-top: 2px dotted #3B4041;
+}
+
+.game-content form.change-kingdom #royal-commands table tbody td {
+    font-weight: normal;
 }
 
 .game-content form.change-kingdom .change-kingdom-form {
-    font-size: 18px;
-    color: #a9a9a9;
-    -moz-text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
-    -webkit-text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
-    text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
+    width: 210px;
+    font-size: 20px;
 }
 
 .game-content form.change-kingdom.change-kingdom-target {
-    border: 0px;
     border-top: 2px solid;
-    border-color: #555555;
-    -moz-box-shadow:    0px -1px 1px #fffbf1,
-                        inset 0px 1px 2px #000;
-    -webkit-box-shadow: 0px -1px 1px #fffbf1,
-                        inset 0px 1px 2px #000;
-    box-shadow:         0px -1px 1px #fffbf1,
-                        inset 0px 1px 2px #000;
-
+    border-color: #555;
 }
 
-input[type=text],
 form textarea,
 form input[type=text],
 form input[type=password] {
     border-width: 1px;
     border-color: #d7d7d7;
     padding-left: 3px;
-    font-family: Ubuntu Condensed;
-    font-size: 18px;
+    font-size: 12px;
     text-align: left;
 
-    -moz-box-shadow: inset 0px 0px 4px #7c4a14;
-    -webkit-box-shadow: inset 0px 0px 4px #7c4a14;
-    box-shadow: inset 0px 0px 6px #000;
-
-    color: #fff;
-	background: #36312d;
-
-
+    color: #000;
+    background: #fff;
 }
 
 form input[type=text],
 form input[type=password] {
-    height: 30px;
-    font-size: 18px;
+    height: 16px;
+    font-size: 12px;
 }
 
 form .errorlist {
@@ -645,39 +431,36 @@ form .errorlist {
 form input[type=submit],
 .button-link {
     /* positioning and size */
+    border: 1px solid;
+    padding: 3px 3px 3px 3px;
 
     /* border styling */
-    border: 0px solid;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
 
     /* internal styling - padding etc. */
-
     /* typography */
-    font-family: Ubuntu Condensed;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: normal;
 
     /* colors */
-    border-color: #7c551a;
-    background: #F5AD28;
+    background-color: #D8D8D8;
 
-    color: black;
+    color: #000;
 }
 
 form input[type=submit]:hover,
 .button-link:hover {
     /* colors */
-
-background: #EB8921; /* Old browsers */
+    background-color: #F2F2F2;
+    text-decoration: none;
 }
 
 form input[type=submit]:active,
 .button-link:active {
     /* colors */
-background: #F5AD28; /* Old browsers */
+    background-color: #F2F2F2;
 }
 
 div.selector span,
@@ -686,52 +469,36 @@ div.uploader span.action
 {
     padding-left: 5px;
     /* typography */
-    font-family: Ubuntu Condensed;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: normal;
     text-align: left;
-    -moz-text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 2px #3d2f1a;
-    -webkit-text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 2px #3d2f1a;
-    text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 1px #3d2f1a;
 }
 div.uploader span.filename,
 div.uploader span.action
 {
-    font-size: 14px;
+    font-size: 12px;
+}
+
+div.uploader span.action {
+    background: transparent;
+    color: #000;
 }
 
 .game-content form table {
-    border: 0px;
-    border-top: 2px solid;
-    border-color: #555555;
     margin-bottom: 10px;
-    -moz-box-shadow:    0px -1px 1px #fffbf1,
-                        inset 0px 1px 2px #000;
-    -webkit-box-shadow: 0px -1px 1px #fffbf1,
-                        inset 0px 1px 2px #000;
-    box-shadow:         0px -1px 1px #fffbf1,
-                        inset 0px 1px 2px #000;
 
     text-align: left;
-
 }
 
 .game-content form table thead th {
-    height: 36px;
-
-    font-family: Ubuntu Condensed;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     text-decoration: none;
     vertical-align: bottom;
 }
 
 .game-content form tbody th {
-    border-left: 2px ridge rgba(48, 48, 48, 0.4);
-    font-family: Ubuntu Condensed;
-    font-size: 16px;
-
 }
 
 .game-content form tbody th:first-child {
@@ -748,35 +515,8 @@ div.uploader span.action
     border: none;
 }
 .game-content form tbody tr:nth-child(even) {
-    /* display, opacity and special effects  N�N ANNAN VARANNAN RAD */
-    background: rgb(48, 48, 48);
-    background: rgba(48, 48, 48, 0.6);
-
-}
-
-
-.game-content form.change-kingdom #royal-commands {
-    border-top: 2px dotted #000;
-}
-
-.game-content form.change-kingdom #royal-commands table {
-    border-top: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.game-content form.change-kingdom #royal-commands table tbody td,
-.game-content form.change-kingdom #royal-commands input[type=text] {
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    font-size: 13px;
-    font-weight: normal;
-}
-
-
-.game-content form.change-kingdom #royal-commands .button-link {
-    font-size: 16px;
-    line-height: 20px;
+    /* display, opacity and special effects*/
+    background: rgb(230, 230, 230)
 }
 
 /* KINGDOM NEWS */
@@ -808,35 +548,27 @@ div.uploader span.action
 
 td.news-aid {
     background-image: url(./images/kingdom_news/aid.png);
-	color: white;
 }
 td.news-intra-kingdom-conflict {
     background-image: url(./images/kingdom_news/intra_kingdom_conflict.png);
-	color: orange;
 }
 td.news-actions-against-our-kingdom {
     background-image: url(./images/kingdom_news/actions_against_our_kingdom.png);
-	color: red;
 }
 td.news-actions-by-our-kingdom {
     background-image: url(./images/kingdom_news/actions_by_our_kingdom.png);
-	color: green;
 }
 td.news-dragon {
     background-image: url(./images/kingdom_news/dragon.png);
-	color: red;
 }
 td.news-obituaries {
     background-image: url(./images/kingdom_news/obituaries.png);
-	color: #777;
 }
 td.news-relations {
     background-image: url(./images/kingdom_news/relations.png);
-	color: yellow;
 }
 td.news-province-modification {
     background-image: url(./images/kingdom_news/province_modification.png);
-	color: #777;
 }
 
 /* KINGDOM DETAILS */
@@ -851,16 +583,12 @@ td.news-province-modification {
 .you { font-weight: bold; }
 .slot-number { font-size: 0.8em; color: #B0B0B0; }
 
-.province-name a { color: #CCC; }
-.province-name a:hover { color: #fff; }
-
 .provinces-legend {
     font-size: 0.8em;
 }
 
 .provinces-legend .invitations {
-    font-family: Ubuntu Condensed;
-    font-size: 18px;
+    font-size: 1.2em;
 }
 
 .dip-status
@@ -920,7 +648,7 @@ td.news-province-modification {
     background: url('./images/province_profile/flagpole.png') no-repeat;
 }
 
-.province-flag .flag-image .default-flag {
+.province-flag .flag-image .default-flag{
     background: url('./images/province_profile/default_flag.png') no-repeat;
 }
 
@@ -931,124 +659,45 @@ td.news-province-modification {
 
 .game-header
 {
-    height: 30px;
-    border-bottom: 0px solid #6b6348;
+    height: 25px;
 }
 
 .game-header h1
 {
-    height: 22px;
-    margin: 0px 1px;
-    padding: 6px 18px 1px 18px;
+    margin: 0px 2px;
+    padding: 6px 6px 1px 6px;
 
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: bolder;
     text-decoration: none;
-    font-family: Ubuntu Condensed;
-
-	background: #F5AD28; /* Old browsers */
-    color: #000;
-
-    -moz-text-shadow: none;
-    -webkit-text-shadow: none;
-    text-shadow: none;
 }
 
 .game-header a h1 {
-	background: #545555; /* Old browsers */
 }
 
-.game-header a h1:hover
-{
-    -moz-text-shadow: none;
-    -webkit-text-shadow: none;
-    text-shadow: none;
-
-    background: #1E1E1E; /* Old browsers */
-
-    color: #fff;
+.game-header a:hover {
+    text-decoration: underline;
 }
 
 .game-content {
-    border: 0px solid;
-
-    /* border styling */
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-
+    border: 1px solid;
 
     /* colors */
-    border-color: #333;
-    -moz-box-shadow:    0px -1px 1px #fffbf1,
-                                    inset 0px 1px 2px #000,
-                                    inset 0px -1px 1px #fffbf1,
-                                    0px 1px 1px #000,
-                                    -1px 0px 2px #000,
-                                    inset 1px 0px 1px #fffbf1,
-                                    inset -1px 0px 2px #000,
-                                    1px 0px 1px #fffbf1;
-    -webkit-box-shadow: 0px -1px 1px #fffbf1,
-                                        inset 0px 1px 2px #000,
-                                        inset 0px -1px 1px #fffbf1,
-                                        0px 1px 1px #000,
-                                        -1px 0px 2px #000,
-                                        inset 1px 0px 1px #fffbf1,
-                                        inset -1px 0px 2px #000,
-                                        1px 0px 1px #fffbf1;
-    box-shadow:     0px -1px 1px #fffbf1,
-                                inset 0px 1px 2px #000,
-                                inset 0px -1px 1px #fffbf1,
-                                0px 1px 1px #000,
-                                -1px 0px 2px #000,
-                                inset 1px 0px 1px #fffbf1,
-                                inset -1px 0px 2px #000,
-                                1px 0px 1px #fffbf1;
 }
 
 .game-content h2 {
-    margin-top: 18px;
-    border: 0px;
-    border-bottom: 1px solid;
-    border-color: #333;
-    -moz-box-shadow:    0px -1px 1px #fffbf1,
-                                    inset 0px 1px 2px #000,
-                                    inset 0px -1px 1px #fffbf1,
-                                    0px 1px 1px #000;
-    -webkit-box-shadow: 0px -1px 1px #fffbf1,
-                                    inset 0px 1px 2px #000,
-                                    inset 0px -1px 1px #fffbf1,
-                                    0px 1px 1px #000;
-    box-shadow:         0px -1px 1px #fffbf1,
-                                    inset 0px 1px 2px #000,
-                                    inset 0px -1px 1px #fffbf1,
-                                    0px 1px 1px #000;
+    margin-top: 15px;
 
-    line-height: 30px;
-    font-size: 22px;
-
+    line-height: 20px;
+    font-size: 14px;
 }
 
-
 .game-content thead th {
-    font-family: Ubuntu Condensed;
-    font-weight: normal;
-    font-size: 16px;
-    text-align: center;
-
-	/*
-    -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    text-shadow: -1px 1px 2px #000, 1px -1px 1px #ffcf68;
-	*/
-	
-    background: #2E2F2F; 
+    font-weight: bold;
+    font-size: 12px;
 }
 
 .game-content tbody th {
-    border-left: 6px ridge rgba(48, 48, 48, 0.4);
-    font-family: Ubuntu Condensed;
-    font-size: 14px;
-
 }
 
 .game-content tbody th:first-child {
@@ -1059,17 +708,16 @@ td.news-province-modification {
     padding-right: 20px;
 }
 
-.game-content tbody tr {
-    border-bottom: 2px groove rgba(48, 48, 48, 0.4);
-    border-top: 2px groove rgba(48, 48, 48, 0.4);
+.game-content tbody td.forum-moderator-buttons {
+    padding-right: 10px;
+}
 
+.game-content tbody tr {
 }
 
 .game-content tbody tr:nth-child(even) {
-    /* display, opacity and special effects (VARANNAN RAD) */
-    background: rgb(48, 48, 48);
-    background: rgba(48, 48, 48, 0.7);
-
+    /* display, opacity and special effects*/
+    background: rgb(230, 230, 230)
 }
 
 .game-content tbody tr.sub-total {
@@ -1081,82 +729,57 @@ td.news-province-modification {
     padding-bottom: 25px;
 }
 
-
 .game-content table.schedule
 {
     font-size:0.8em;
+    border-collapse: separate;
+    border-spacing: 3px 3px;
 }
-
 
 .two-digit-input {
-    width: 50px;
+    width: 30px;
 }
 .three-digit-input {
-    width: 55px;
+    width: 40px;
 }
 
 .four-digit-input {
-    width: 70px;
+    width: 50px;
 }
 
 .five-digit-input {
-    width: 85px;
+    width: 60px;
 }
 
 .six-digit-input {
-    width: 100px;
+    width: 70px;
 }
 
 /* GAME PREFERENCES */
 .game-content div.preference-box {
-    background: rgb(86, 83, 74); /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #706e62 0%, #353535 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#898989), color-stop(100%,#353535)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* W3C */
+    background: rgb(230, 230, 230)
 }
 
 .game-content div.preference-box.disabled {
-    opacity: 0.5;
-}
-
-.game-content table.applicant-view input[type="submit"],
-.game-content table.mail-view input[type="submit"],
-.game-content table.mail-view .button-link {
-    font-size: 14px;
-}
-
-table.mail-view td.formatted-text {
-    background: rgb(86, 83, 74); /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #706e62 0%, #353535 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#898989), color-stop(100%,#353535)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* W3C */
+    color: gray;
 }
 
 div.wysiwyg {
-    border: 0px solid #999;
+    border: 1px solid #999;
     padding: 5px;
-    background: rgb(86, 83, 74);
 }
 
 div.wysiwyg ul.toolbar li {
-    background: url('./images/jquery.wysiwyg.gif') no-repeat -64px -80px;
-    border: 0px outset #83817d;
+    border: 1px outset black;
 }
 
 body.wysiwyg {
-    color: #fff;
-    background: #3a3830; /* Old browsers */
     font-size: 12px;
+    background-color: white;
 }
 
 #bookmark-header {
-    background-image: url(./images/gold_star.png);
+    background-image: url(./images/silver_star.png);
     background-repeat: no-repeat;
     background-position: center 3px;
 }
@@ -1164,36 +787,36 @@ body.wysiwyg {
 #bookmark-header:hover,
 #bookmark-header.selected
 {
-    background-color: #F5AD28;
 }
 
 #bookmark-details
 {
-    font-size: 16px;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid black;
 }
 
-#bookmark-details div
+#bookmark-details a
 {
-    padding-top: 1px;
-    padding-bottom: 1px;
-}
-
-#bookmark-details a:hover {
+    text-decoration: none;
 }
 
 #bookmark-details #bookmarks {
-    border-top: 1px solid #29261c;
-    border-bottom: 1px solid #29261c;
+    border-top: 1px solid #103041;
+    border-bottom: 1px solid #103041;
+    -moz-box-shadow: 0px 2px 1px -1px #103041;
+    -webkit-box-shadow: 0px 2px 1px -1px #103041;
+    box-shadow: 0px 2px 1px -1px #103041;
 }
 
 #royal-command-icon {
-    background-image: url(./images/gold_crown.png);
+    background-image: url(./images/silver_crown.png);
     background-repeat: no-repeat;
     background-position: center 3px;
 }
 
 #royal-command-icon:hover {
-    background-color: #F5AD28;
+    background-color: #103041;
 }
 
 .tablesorter th .order-icon {
@@ -1209,60 +832,48 @@ body.wysiwyg {
 }
 
 .campaign-meter-level div {
-    border: 0px solid #789316;
+    border: 1px solid green;
 }
 
 .campaign-meter-level div.full {
-    background-color: #789316;
+    background-color: green;
 }
 
 .campaign-meter-level div.unknown {
-    color: #789316;
+    color: green;
 }
 
 .fails-criteria div {
-    border: 0px solid #CD4331;
+    border: 1px solid red;
 }
 
 .fails-criteria div.full {
-    background-color: #CD4331;
+    background-color: red;
+}
+
+.two-column ul {
+   margin-left: 0px;
+}
+
+.two-column li {
+    margin-right: 10px;
+}
+
+.recruitment-header h2 {
+    font-size: 16px;
 }
 
 .recruitment-header .rank-bar,
 .campaigns .rank-bar {
-    background-color: #867721;
+    background-color: #04B404;
 }
 
 .recruitment-header .selected-rank,
 .campaigns .selected-rank {
-    background-color: #EB8921;
+    background-color: #40FF00;
 }
 
 .campaigns .campaign-message-intro {
-    font-family: Ubuntu Condensed;
-    font-weight: 200;
-    color: white;
-    text-shadow: -1px 1px 2px black;
-    font-size: 18px;
+    font-size: 14px;
 }
-
-#uniform-id-orderby {
-    background-position: left -38px;
-    width: 296px;
-}
-
-#uniform-id-orderby span,
-#uniform-id-orderby.focus span,
-#uniform-id-orderby.hover span,
-#uniform-id-orderby:hover span {
-    font-size: 30px;
-    background-position: right -38px;
-}
-
-td#inline-hostility-meter {
-    text-align: left;
-    text-shadow: none;
-    font-weight: normal;
-}
-
 
