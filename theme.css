@@ -673,48 +673,126 @@ td.news-province-modification {
     background: url('./images/province_profile/scroll.png') no-repeat;
 }
 
-
 .game-header
 {
-    height: 25px;
+    height: 30px;
+    border-bottom: 0px solid #6b6348;
 }
 
 .game-header h1
 {
-    margin: 0px 2px;
-    padding: 6px 6px 1px 6px;
+    height: 22px;
+    margin: 0px 1px;
+    padding: 6px 18px 1px 18px;
 
-    font-size: 16px;
-    font-weight: bolder;
+    font-size: 18px;
     text-decoration: none;
+    font-family: Ubuntu Condensed;
+
+	background: #2f4e6f; /* Old browsers */
+    color: #000;
+
+    -moz-text-shadow: none;
+    -webkit-text-shadow: none;
+    text-shadow: none;
 }
 
 .game-header a h1 {
+	background: #545555; /* Old browsers */
 }
 
-.game-header a:hover {
-    text-decoration: underline;
+.game-header a h1:hover
+{
+    -moz-text-shadow: none;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+
+    background: #1E1E1E; /* Old browsers */
+
+    color: #fff;
 }
 
 .game-content {
-    border: 1px solid;
+    border: 0px solid;
+
+    /* border styling */
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+
 
     /* colors */
+    border-color: #333;
+    -moz-box-shadow:    0px -1px 1px #fffbf1,
+                                    inset 0px 1px 2px #000,
+                                    inset 0px -1px 1px #fffbf1,
+                                    0px 1px 1px #000,
+                                    -1px 0px 2px #000,
+                                    inset 1px 0px 1px #fffbf1,
+                                    inset -1px 0px 2px #000,
+                                    1px 0px 1px #fffbf1;
+    -webkit-box-shadow: 0px -1px 1px #fffbf1,
+                                        inset 0px 1px 2px #000,
+                                        inset 0px -1px 1px #fffbf1,
+                                        0px 1px 1px #000,
+                                        -1px 0px 2px #000,
+                                        inset 1px 0px 1px #fffbf1,
+                                        inset -1px 0px 2px #000,
+                                        1px 0px 1px #fffbf1;
+    box-shadow:     0px -1px 1px #fffbf1,
+                                inset 0px 1px 2px #000,
+                                inset 0px -1px 1px #fffbf1,
+                                0px 1px 1px #000,
+                                -1px 0px 2px #000,
+                                inset 1px 0px 1px #fffbf1,
+                                inset -1px 0px 2px #000,
+                                1px 0px 1px #fffbf1;
 }
 
 .game-content h2 {
-    margin-top: 15px;
+    margin-top: 18px;
+    border: 0px;
+    border-bottom: 1px solid;
+    border-color: #333;
+    -moz-box-shadow:    0px -1px 1px #fffbf1,
+                                    inset 0px 1px 2px #000,
+                                    inset 0px -1px 1px #fffbf1,
+                                    0px 1px 1px #000;
+    -webkit-box-shadow: 0px -1px 1px #fffbf1,
+                                    inset 0px 1px 2px #000,
+                                    inset 0px -1px 1px #fffbf1,
+                                    0px 1px 1px #000;
+    box-shadow:         0px -1px 1px #fffbf1,
+                                    inset 0px 1px 2px #000,
+                                    inset 0px -1px 1px #fffbf1,
+                                    0px 1px 1px #000;
 
-    line-height: 20px;
-    font-size: 14px;
+    line-height: 30px;
+    font-size: 22px;
+
 }
 
+
 .game-content thead th {
-    font-weight: bold;
-    font-size: 12px;
+    font-family: Ubuntu Condensed;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+
+	/*
+    -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
+    -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
+    text-shadow: -1px 1px 2px #000, 1px -1px 1px #ffcf68;
+	*/
+	
+    background: #2E2F2F; 
 }
 
 .game-content tbody th {
+    border-left: 6px ridge rgba(48, 48, 48, 0.4);
+    font-family: Ubuntu Condensed;
+    font-size: 14px;
+
 }
 
 .game-content tbody th:first-child {
@@ -725,16 +803,17 @@ td.news-province-modification {
     padding-right: 20px;
 }
 
-.game-content tbody td.forum-moderator-buttons {
-    padding-right: 10px;
-}
-
 .game-content tbody tr {
+    border-bottom: 2px groove rgba(48, 48, 48, 0.4);
+    border-top: 2px groove rgba(48, 48, 48, 0.4);
+
 }
 
 .game-content tbody tr:nth-child(even) {
-    /* display, opacity and special effects*/
-    background: rgb(230, 230, 230)
+    /* display, opacity and special effects (VARANNAN RAD) */
+    background: rgb(48, 48, 48);
+    background: rgba(48, 48, 48, 0.7);
+
 }
 
 .game-content tbody tr.sub-total {
@@ -746,11 +825,10 @@ td.news-province-modification {
     padding-bottom: 25px;
 }
 
+
 .game-content table.schedule
 {
     font-size:0.8em;
-    border-collapse: separate;
-    border-spacing: 3px 3px;
 }
 
 .two-digit-input {
