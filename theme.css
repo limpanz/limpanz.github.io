@@ -25,7 +25,7 @@ FOLLOW THIS FORMAT:
 body {
     color: white;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background: LightSeaGreen;
+    background: url(http://warnerboutique.com/wp-content/uploads/blurred_colors-wide.jpg) no-repeat;
 }
 
 #header-logo {
@@ -115,6 +115,8 @@ body {
 }
 
 #middle {
+    background: white;
+    opacity:0.5;
     /* positioning and size */
     /* border styling */
     /* internal styling - padding etc. */
