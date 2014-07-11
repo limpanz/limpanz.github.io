@@ -89,6 +89,7 @@ background-size: 20px 20px;
 
 #account-header.selected
 {
+	color: gold;
 }
 
 #account-details
