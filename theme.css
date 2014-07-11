@@ -13,15 +13,25 @@ FOLLOW THIS FORMAT:
 }
 */
 
+
+@font-face {
+    font-family: 'Ubuntu Condensed';
+    src: url('./fonts/Ubuntu-C.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
-    color: #black;
-    font-family: "Times New Roman", Times, serif;
-    background-color: white;
+    color: white;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #333;
 }
 
 #header-logo {
-    width: 183px;
-    height: 50px;
+    background: url(./images/logo_header.png) no-repeat top left;
+    width: 243px;
+    height: 49px;
     position: absolute;
 }
 
