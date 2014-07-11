@@ -691,13 +691,13 @@ td.news-province-modification {
 
 .game-content {
     /* colors */
-    background: white;
-    color: black;
+    background: DarkSlateGray;
+    color: Azure;
     /* border styling */
     border: 1px solid #fff;
-    border-radius: 12px;
-    -moz-border-radius: 12px;
-    -webkit-border-radius: 12px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
     /* colors */
 }
 
