@@ -73,7 +73,7 @@ background-size: 20px 20px;
 		filter: glow(color=#252525,strength=3);
 		*/
     /* colors */
-	    background: #F5AD28;
+	    background: #2f4e6f;
 }
 
 .navigation a {
@@ -117,13 +117,13 @@ background-size: 20px 20px;
 #account-header:hover
 {
 	color: black;
-    background-color: #F5AD28;
+    background-color: #2f4e6f;
 }
 
 #account-header.selected
 {
 	color: black;
-    background-color: #F5AD28;
+    background-color: #2f4e6f;
 }
 
 #account-details
@@ -131,7 +131,7 @@ background-size: 20px 20px;
     font-size: 12px;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     line-height: 16px;
-    background-color: #F5AD28;
+    background-color: #2f4e6f;
 }
 
 #account-details .account-title
@@ -178,12 +178,12 @@ background-size: 20px 20px;
 }
 
 a {
-    color: #EB8921;
+    color: #98b1c4;
     text-decoration: none;
 }
 
 a.highlighted {
-    color: #EB8921;
+    color: #98b1c4;
 }
 
 a.info-link {
@@ -215,7 +215,7 @@ h3 {
 
 .report-this {
     color: #2e2f2f;
-    background-color: #eb8921;
+    background-color: #98b1c4;
     border-bottom-left-radius: 8px 8px;
     -moz-border-radius-bottomleft: 8px 8px;
 
@@ -231,7 +231,7 @@ h3 {
 }
 
 .report-this:hover {
-    background-color: #eb8921;
+    background-color: #98b1c4;
 }
 
 .reported-content {
@@ -452,7 +452,7 @@ background: #718d16;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
 
-	background: #F5AD28; /* Old browsers */
+	background: #2f4e6f; /* Old browsers */
 	}
 
 #game-navigation a {
@@ -487,7 +487,7 @@ background: #718d16;
 }
 
 #resource-bar thead {
-	background: #F5AD28; /* Old browsers */
+	background: #2f4e6f; /* Old browsers */
     color: #2E2F2F;
 	line-height: 20px;
     text-align: center;
@@ -662,7 +662,7 @@ form input[type=submit],
 
     /* colors */
     border-color: #7c551a;
-    background: #F5AD28;
+    background: #2f4e6f;
 
     color: black;
 }
@@ -671,13 +671,13 @@ form input[type=submit]:hover,
 .button-link:hover {
     /* colors */
 
-background: #EB8921; /* Old browsers */
+background: #98b1c4; /* Old browsers */
 }
 
 form input[type=submit]:active,
 .button-link:active {
     /* colors */
-background: #F5AD28; /* Old browsers */
+background: #2f4e6f; /* Old browsers */
 }
 
 div.selector span,
@@ -945,7 +945,7 @@ td.news-province-modification {
     text-decoration: none;
     font-family: Ubuntu Condensed;
 
-	background: #F5AD28; /* Old browsers */
+	background: #2f4e6f; /* Old browsers */
     color: #000;
 
     -moz-text-shadow: none;
@@ -1164,7 +1164,7 @@ body.wysiwyg {
 #bookmark-header:hover,
 #bookmark-header.selected
 {
-    background-color: #F5AD28;
+    background-color: #2f4e6f;
 }
 
 #bookmark-details
@@ -1193,7 +1193,7 @@ body.wysiwyg {
 }
 
 #royal-command-icon:hover {
-    background-color: #F5AD28;
+    background-color: #2f4e6f;
 }
 
 .tablesorter th .order-icon {
@@ -1235,7 +1235,7 @@ body.wysiwyg {
 
 .recruitment-header .selected-rank,
 .campaigns .selected-rank {
-    background-color: #EB8921;
+    background-color: #98b1c4;
 }
 
 .campaigns .campaign-message-intro {
