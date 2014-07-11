@@ -483,13 +483,7 @@ form input[type=password] {
     background: #fff;
 }
 
-.formatted-text {
-	border-width: 1px;
-    border-color: #d7d7d7;
-    padding-left: 3px;
-    font-size: 12px;
-    text-align: left;
-
+form .formatted-text {
     color: #000;
     background: #fff;
 }
