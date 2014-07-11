@@ -367,14 +367,6 @@ h3 {
 }
 
 .game-content h2 {
-    /* colors */
-    background: white;
-    color: black;
-    /* border styling */
-    border: 1px solid #fff;
-    border-radius: 12px;
-    -moz-border-radius: 12px;
-    -webkit-border-radius: 12px;
 }
 
 .game-content h3 {
@@ -698,8 +690,14 @@ td.news-province-modification {
 }
 
 .game-content {
-    border: 1px solid;
-
+    /* colors */
+    background: white;
+    color: black;
+    /* border styling */
+    border: 1px solid #fff;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
     /* colors */
 }
 
