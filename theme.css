@@ -364,7 +364,7 @@ h3 {
 }
 
 #resource-bar thead {
-	background: #444; /* Old browsers */
+	background: #222; /* Old browsers */
     color: gold;
 	line-height: 20px;
     text-align: center;
