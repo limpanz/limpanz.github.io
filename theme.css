@@ -115,13 +115,6 @@ body {
 }
 
 #middle {
-    background: white;
-    color: black;
-    /* border styling */
-    border: 1px solid #fff;
-    border-radius: 12px;
-    -moz-border-radius: 12px;
-    -webkit-border-radius: 12px;
 
     /* positioning and size */
     /* border styling */
@@ -153,6 +146,7 @@ h3 {
 }
 
 #footer {
+    visibility: hidden;
     color: #4d5355;
     font-size: 10px;
 }
@@ -374,7 +368,13 @@ h3 {
 
 .game-content h2 {
     /* colors */
-    background-color: rgb(230, 230, 230);
+    background: white;
+    color: black;
+    /* border styling */
+    border: 1px solid #fff;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
 }
 
 .game-content h3 {
