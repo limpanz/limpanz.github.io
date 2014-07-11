@@ -483,8 +483,8 @@ form input[type=password] {
     background: #fff;
 }
 
-#id_body {
-    border-width: 1px;
+.formatted-text {
+	border-width: 1px;
     border-color: #d7d7d7;
     padding-left: 3px;
     font-size: 12px;
@@ -493,7 +493,6 @@ form input[type=password] {
     color: #000;
     background: #fff;
 }
-
 
 form input[type=text],
 form input[type=password] {
