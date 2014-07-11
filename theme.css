@@ -71,18 +71,20 @@ background-size: 20px 20px;
 
 #account-container {
     font-size: 16px;
-    background-color: #333;
 }
 
 #account-header .account-image {
     background: url(./images/anonymous_small.png) no-repeat top left;
+    
+    border-bottom-left-radius: 2px 2px;
+    -moz-border-radius-bottomleft: 2px 2px;
 }
 
 #account-header {
+    background-color: #333;
 }
 
-#account-header:hover
-{
+#account-header:hover {
 }
 
 #account-header.selected
