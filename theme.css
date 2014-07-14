@@ -38,6 +38,7 @@ background-size: 20px 20px;
     background: url(./images/logo_header.png) no-repeat top left;
     width: 416px;
     height: 98px;
+    display: block;
     position: absolute;
 }
 
