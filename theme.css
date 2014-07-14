@@ -49,6 +49,16 @@ background-size: 20px 20px;
     text-align: left;
 }
 
+
+#game-navigation .navigation {
+    border: 1px solid #555;
+    background: #333;
+}
+
+
+
+
+
 .navigation a {
     text-decoration: none;
     color: white;
@@ -347,13 +357,9 @@ h3 {
 }
 
 #game-navigation a {
-	padding: 20px;
-	border: 1px solid #555;
-	background: #333;
 }
 
 #game-navigation a:hover {
-	background: #000;
     	box-shadow: -10px 0px 6px -6px #fff;
 }
 
