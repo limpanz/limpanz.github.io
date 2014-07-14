@@ -43,7 +43,7 @@ background-size: 20px 20px;
 }
 
 #header { height: 99px;}
-#header-navigation {width: 600px; background-color: green;}
+#header-navigation { width: 300px; background-color: green; text-align: right;}
 
 .navigation {
      /* typography */
