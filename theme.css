@@ -36,14 +36,14 @@ background-size: 20px 20px;
 
 #header-logo {
     background: url(./images/logo_header.png) no-repeat top left;
-    width: 416px;
-    height: 98px;
+    width: 350px;
+    height: 82px;
     display: block;
     position: absolute;
 }
 
-#header { height: 99px;}
-#header-navigation { width: 500px; background-color: green; text-align: right; margin-left: 160px;}
+#header { height: 83px;}
+#header-navigation { width: 500px; background-color: green; text-align: right; margin-left: 135px;}
 
 .navigation {
      /* typography */
@@ -73,7 +73,7 @@ background-size: 20px 20px;
 
 #header-navigation div {
 border: 1px solid #555;
-margin-top: 5px;
+margin-top: 15px;
 background: #333;
 }
 
@@ -87,6 +87,7 @@ background: #333;
 }
 
 #account-container {
+    margin-top: 15px;
     font-size: 16px;
 }
 
