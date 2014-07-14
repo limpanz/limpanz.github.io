@@ -43,7 +43,7 @@ background-size: 20px 20px;
 }
 
 #header { height: 99px;}
-#header-navigation { width: 300px; background-color: green; text-align: right;}
+#header-navigation { width: 300px; background-color: green; text-align: right; margin-left: 200px;}
 
 .navigation {
      /* typography */
@@ -73,6 +73,7 @@ background-size: 20px 20px;
 
 #header-navigation div {
 border: 1px solid #555;
+margin-top: 5px;
 background: #333;
 }
 
