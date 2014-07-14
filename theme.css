@@ -59,7 +59,8 @@ background-size: 20px 20px;
 }
 
 #header-navigation div {
-border: 1px solid #444;
+border: 1px solid #555;
+background: #333;
 }
 
 #header-navigation div:hover a  {
@@ -340,13 +341,18 @@ h3 {
     margin-top: 5px;
     padding: 15px 0px;
     font-size: 13px;
+border: 1px solid #555;
+background: #333;
 }
 
 #game-navigation a {
+border: 1px solid #555;
+background: #333;
     line-height: 0.6em;
 }
 
 #game-navigation a:hover {
+background: #000;
     box-shadow: -10px 0px 6px -6px #fff;
 }
 
