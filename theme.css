@@ -64,11 +64,12 @@ background: #333;
 }
 
 #header-navigation div:hover a  {
-	color: gold;
     /* colors */
 }
 
 #header-navigation div:hover {
+	background: #333;
+	color: gold;
 }
 
 #account-container {
@@ -338,22 +339,22 @@ h3 {
 }
 
 #game-navigation .current-date {
-    margin-top: 5px;
-    padding: 15px 0px;
-    font-size: 13px;
-border: 1px solid #555;
-background: #333;
+	margin-top: 5px;
+	padding: 15px 0px;
+    	font-size: 13px;
+	border: 1px solid #555;
+	background: #333;
 }
 
 #game-navigation a {
-border: 1px solid #555;
-background: #333;
-    line-height: 0.6em;
+	padding: 15px 0px;
+	border: 1px solid #555;
+	background: #333;
 }
 
 #game-navigation a:hover {
-background: #000;
-    box-shadow: -10px 0px 6px -6px #fff;
+	background: #000;
+    	box-shadow: -10px 0px 6px -6px #fff;
 }
 
 #resource-bar
