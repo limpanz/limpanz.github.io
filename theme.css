@@ -347,10 +347,9 @@ h3 {
 }
 
 #game-navigation a {
-	padding: 5px;
+	padding: 20px;
 	border: 1px solid #555;
 	background: #333;
-	margin: 20px;
 }
 
 #game-navigation a:hover {
