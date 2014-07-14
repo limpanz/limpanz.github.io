@@ -65,11 +65,11 @@ background: #333;
 
 #header-navigation div:hover a  {
     /* colors */
+	background: #333;
+	color: gold;
 }
 
 #header-navigation div:hover {
-	background: #333;
-	color: gold;
 }
 
 #account-container {
@@ -347,7 +347,7 @@ h3 {
 }
 
 #game-navigation a {
-	padding: 15px 0px;
+	padding: 5px;
 	border: 1px solid #555;
 	background: #333;
 }
