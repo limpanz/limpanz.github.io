@@ -59,10 +59,11 @@ background-size: 20px 20px;
 }
 
 #header-navigation div {
-
+border: 1px solid #444;
 }
 
 #header-navigation div:hover a  {
+	color: gold;
     /* colors */
 }
 
