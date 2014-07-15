@@ -100,6 +100,7 @@ background: #333;
 }
 
 #account-header {
+    margin-top: 15px;
     background-color: #333;
 }
 
@@ -113,6 +114,7 @@ background: #333;
 
 #account-details
 {
+    margin-top: 15px;
     font-size: 12px;
     line-height: 16px;
     background-color: black;
