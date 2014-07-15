@@ -87,11 +87,12 @@ background: #333;
 }
 
 #account-container {
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 16px;
 }
 
 #account-header .account-image {
+    margin-top: 15px;
     background: url(./images/anonymous_small.png) no-repeat top left;
     
     border-bottom-left-radius: 2px 2px;
