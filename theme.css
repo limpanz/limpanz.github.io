@@ -1057,7 +1057,3 @@ body.wysiwyg {
 
 .province-name a { color: #CCC; }
 .province-name a:hover { color: #fff; }
-
-
-.mailview .odd, .mailview .even a { color: #CCC; }
-.mailview .odd, .mailview .even  a:hover { color: #fff; }
