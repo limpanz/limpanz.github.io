@@ -465,6 +465,7 @@ form ul.errorlist {
 .game-content form.change-kingdom .change-kingdom-heading {
     margin-top: 10px;
     font-size: 18px;
+    font-family: 'Ubuntu Condensed';
     line-height: 22px;
 }
 
@@ -849,6 +850,7 @@ background: #444;
 
     line-height: 30px;
     font-size: 22px;
+    font-family: Ubuntu Condensed;
 
 }
 
