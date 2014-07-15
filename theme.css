@@ -181,7 +181,7 @@ h3 {
 }
 
 .report-this {
-    color: #45ACF6;
+    color: gold;
     background-color: #18100e;
     border-bottom-left-radius: 8px 8px;
     -moz-border-radius-bottomleft: 8px 8px;
@@ -196,7 +196,7 @@ h3 {
 }
 
 .report-this:hover {
-    color: #7fc3f3;
+    color: gold;
     background-color: #2a201d;
 }
 
@@ -953,6 +953,7 @@ div.wysiwyg ul.toolbar li {
 body.wysiwyg {
     font-size: 12px;
     background: white;
+    color: black;
 }
 
 #bookmark-header {
