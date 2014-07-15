@@ -936,11 +936,11 @@ background: #444;
 
 /* GAME PREFERENCES */
 .game-content div.preference-box {
-    background: rgb(230, 230, 230)
+    background: #333;
 }
 
 .game-content div.preference-box.disabled {
-    color: gray;
+    background: #777;
 }
 
 div.wysiwyg {
