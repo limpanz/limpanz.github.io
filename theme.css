@@ -30,7 +30,7 @@ background-size: 20px 20px;
 
 /* LEFT NAVIGATION */
 
-#game-navigation .navigation    { font-size: 16px; font-weight: normal; text-align: left; border: 1px solid #555; padding: 0; margin: 0; background: #333; }
+#game-navigation .navigation    { font-size: 16px; font-weight: normal; text-align: left; border: 1px solid #555; padding: 0; margin-bottom: 10px; background: #333; }
 /*
 #game-navigation .navigation div { margin: 0px; padding: 0px; }
 #game-navigation .navigation a  { line-height: 0.6em; text-decoration: none; color: white; padding: 0px; margin: 0; border-right: none; }
