@@ -33,7 +33,7 @@ background-size: 20px 20px;
 
 .navigation 			{ font-size: 16px; font-weight: normal; text-align: left; }
 #game-navigation .navigation 	{ border: 1px solid #555; background: #333; }
-#game-navigation .navigation a:hover { display: block; background: #444; }
+#game-navigation .navigation a:hover { display: block; padding: 3px; background: #444; }
 
 .navigation a { text-decoration: none; color: white; }
 .navigation a:hover  {}
@@ -136,7 +136,7 @@ h1, h2, h3 { color: white; font-weight: normal; }
 	border: 1px solid #555;	background: #333; }
 
 #game-navigation a {}
-#game-navigation a:hover { box-shadow: -10px 0px 6px -6px #fff; }
+#game-navigation a:hover {}
 
 #resource-bar { border: 2px solid; border-radius: 2px; border-color: #2E2F2F; -moz-border-radius: 2px; -webkit-border-radius: 2px;
     font-family: Ubuntu Condensed; font-size: 16px;
