@@ -29,10 +29,17 @@ background-size: 20px 20px;
 
 
 /* LEFT NAVIGATION */
+/*
 #game-navigation .navigation    { font-size: 16px; font-weight: normal; text-align: left; border: 1px solid #555; background: #333; }
 #game-navigation .navigation div { margin: 0px; padding: 0px; }
 #game-navigation .navigation a  { line-height: 0.6em; text-decoration: none; color: white; padding: 0px; margin: 0; border-right: none; }
 #game-navigation .navigation a:hover { background: #444; }
+*/
+
+.navigation { font-weight: normal; text-align: left; padding: 0; margin: 0; color: #fff; }
+.navigation a { display: block; padding: 8px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
+.navigation a:hover, .navigation a:active, .navigation a:focus  { color: #000 !important; background: #c1c1c1; }
+
 
 
 #account-container { margin-top: 5px; font-size: 16px; }
