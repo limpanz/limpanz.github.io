@@ -33,6 +33,7 @@ background-size: 20px 20px;
 
 .navigation 			{ font-size: 16px; font-weight: normal; text-align: left; }
 #game-navigation .navigation 	{ border: 1px solid #555; background: #333; }
+#game-navigation .navigation a:hover { display: block; background: #444; }
 
 .navigation a { text-decoration: none; color: white; }
 .navigation a:hover  {}
