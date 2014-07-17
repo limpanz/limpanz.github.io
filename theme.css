@@ -32,7 +32,7 @@ background-size: 20px 20px;
 
 
 .navigation 			{ font-size: 16px; font-weight: normal; text-align: left; }
-#game-navigation .navigation 	{ border: 1px solid #555; background: #333; }
+#game-navigation .navigation 	{ border: 1px solid #555; background: #333; padding: 0px; margin: 0px;}
 #game-navigation .navigation a:hover { display: block; background: #444; }
 
 .navigation div { display: block; width: 100%;}
