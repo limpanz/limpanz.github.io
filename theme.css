@@ -344,9 +344,14 @@ h3 {
     line-height: 16px;
 }
 
+/*
+*/
+
 .advice-message {
-    color: #F93;
+	color: #fff !important;
 }
+
+.navigation a span.advice-message:after { content: ' NEW'; font-weight: bold; }
 
 .warning {
     color: #e55700;
