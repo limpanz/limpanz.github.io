@@ -104,9 +104,9 @@ h1, h2, h3 { color: white; font-weight: normal; }
 
 .good { color: #90ee90; }
 .bad { color: red; }
-.message { border: 1px solid white; font-weight: bold; line-height: 1.5em; }
-.good.message { background-color: green; color: white; }
-.bad.message { background-color: #400000; color: white; }
+.message { font-weight: bold; line-height: 1.5em; }
+.good.message { border: 1px solid #555; background-color: #659D32; color: white; }
+.bad.message { border: 1px solid #333; background-color: #880000; color: white; }
 .info.message {background-color: #C46500; color: white; }
 
 
