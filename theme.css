@@ -38,8 +38,8 @@ background-size: 20px 20px;
 */
 
 /* .navigation { font-weight: normal; text-align: left; padding: 0; margin: 0; color: #fff; } */
-.navigation a { display: block; padding: 8px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
-.navigation a:hover, .navigation a:active, .navigation a:focus  { color: #000 !important; background: #c1c1c1; }
+#game-navigation .navigation a { display: block; padding: 3px 5px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
+#game-navigation .navigation a:hover, .navigation a:active, .navigation a:focus  { color: #000 !important; background: #555; }
 
 
 
