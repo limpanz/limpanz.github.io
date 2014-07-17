@@ -785,20 +785,11 @@ td.news-province-modification {
     text-shadow: none;
 }
 
-.game-header a h1 {
-	background: #545555; /* Old browsers */
-}
+.game-header h1 a { color: #fff !important; }
+.game-header h1 a:hover, .game-header h1 a:active, .game-header h1 a:focus { text-decoration: underline; }
+.game-header a h1 { background: #AD9F99; color: #000; border: 1px solid #846F66; }
+.game-header a h1:hover { color: #fff; background: #846F66; text-decoration: underline; }
 
-.game-header a h1:hover
-{
-    -moz-text-shadow: none;
-    -webkit-text-shadow: none;
-    text-shadow: none;
-
-    background: #1E1E1E; /* Old browsers */
-
-    color: #fff;
-}
 
 .game-content {
     border: 0px solid;
