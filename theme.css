@@ -25,7 +25,7 @@ background-size: 20px 20px;
 #header { height: 83px;}
 #header-navigation { width: 500px; text-align: right; margin-left: 135px;}
 #header-navigation div { font-size: 16px; border: 1px solid #555; margin-top: 15px; background: #333; }
-#header-navigation div:hover a  { background: #333; color: gold; }
+#header-navigation div:hover a  { background: #333; color: white; }
 
 
 /* LEFT NAVIGATION */
@@ -41,7 +41,7 @@ border: 1px solid #555; padding: 0; margin: 0px 0px 10px 0px; background: #333; 
     border-bottom-left-radius: 2px 2px; -moz-border-radius-bottomleft: 2px 2px; }
 #account-header { margin-top: 15px; background-color: #333; }
 #account-header:hover {}
-#account-header.selected { color: gold; }
+#account-header.selected { color: white; }
 
 #account-details { margin-top: 15px; font-size: 12px; line-height: 16px; background-color: black; border: 1px solid white; background-color: #333; }
 #account-details .account-title { font-size: 16px; font-weight: bolder; border-bottom: 1px solid #103041; }
