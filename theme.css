@@ -19,24 +19,15 @@ background-color: #131313;
 background-size: 20px 20px;
 }
 
-#header-logo {
-    background: url(./images/logo_header.png) no-repeat top left;
-    width: 350px;
-    height: 82px;
-    display: block;
-    position: absolute;
-}
-
+#header-logo { background: url(./images/logo_header.png) no-repeat top left; width: 350px; height: 82px; display: block; position: absolute; }
 #header { height: 83px;}
-#header-navigation { width: 500px; background-color: green; text-align: right; margin-left: 135px;}
+#header-navigation { width: 500px; text-align: right; margin-left: 135px;}
 
 
-.navigation 			{ font-size: 16px; font-weight: normal; text-align: left; }
+#game-navigation .navigation    { font-size: 16px; font-weight: normal; text-align: left; }
 #game-navigation .navigation 	{ border: 1px solid #555; background: #333; }
-#game-navigation .navigation div { display: block; width: 100%; margin: 0px; padding: 0px;}
 #game-navigation .navigation a { text-decoration: none; color: white; padding: 8px; margin: 0; border-right: none; }
 #game-navigation .navigation a:hover { background: #444; }
-
 
 
 
