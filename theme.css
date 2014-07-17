@@ -19,21 +19,20 @@ background-color: #131313;
 background-size: 20px 20px;
 }
 
+
+/* HEADER */
 #header-logo { background: url(./images/logo_header.png) no-repeat top left; width: 350px; height: 82px; display: block; position: absolute; }
 #header { height: 83px;}
 #header-navigation { width: 500px; text-align: right; margin-left: 135px;}
-
-
-#game-navigation .navigation    { font-size: 16px; font-weight: normal; text-align: left; }
-#game-navigation .navigation 	{ border: 1px solid #555; background: #333; }
-#game-navigation .navigation a { text-decoration: none; color: white; padding: 8px; margin: 0; border-right: none; }
-#game-navigation .navigation a:hover { background: #444; }
-
-
-
 #header-navigation div { font-size: 16px; border: 1px solid #555; margin-top: 15px; background: #333; }
 #header-navigation div:hover a  { background: #333; color: gold; }
-#header-navigation div:hover {}
+
+
+/* LEFT NAVIGATION */
+#game-navigation .navigation    { font-size: 16px; font-weight: normal; text-align: left; }
+#game-navigation .navigation 	{ border: 1px solid #555; background: #333; }
+#game-navigation .navigation a  { line-height: 0.6em; text-decoration: none; color: white; padding: 3px; margin: 0; border-right: none; }
+#game-navigation .navigation a:hover { background: #444; }
 
 
 #account-container { margin-top: 5px; font-size: 16px; }
@@ -122,9 +121,6 @@ h1, h2, h3 { color: white; font-weight: normal; }
 
 #game-navigation .current-date { font-family: Ubuntu Condensed; margin-top: 2px; padding: 13px 0px; font-size: 18px;
 	border: 1px solid #555;	background: #333; }
-
-#game-navigation a {}
-#game-navigation a:hover {}
 
 #resource-bar { border: 2px solid; border-radius: 2px; border-color: #2E2F2F; -moz-border-radius: 2px; -webkit-border-radius: 2px;
     font-family: Ubuntu Condensed; font-size: 16px;
