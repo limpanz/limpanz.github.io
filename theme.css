@@ -247,9 +247,9 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .motto 			{ background: url('./images/province_profile/scroll.png') no-repeat; }
 
 .game-header 		{ height: 30px; border-bottom: 0px solid #6b6348; }
-.game-header h1		{ height: 22px; margin: 0px 1px; border-radius: 2px 0px; padding: 6px 18px 4px 18px; font-size: 18px; text-decoration: none; font-family: Ubuntu Condensed; background: #444235; color: white; }
-.game-header a h1 	{ background: #a39a7d; border-radius: 2px 0px; padding: 6px 18px 1px 18px; }
-.game-header a h1:hover { background: #70684c; border-radius: 2px 0px; padding: 6px 18px 1px 18px; color: #fff; }
+.game-header h1		{ height: 22px; margin: 0px 1px; border-radius: 4px 4px 0px 0px; padding: 6px 18px 4px 18px; font-size: 18px; text-decoration: none; font-family: Ubuntu Condensed; background: #444235; color: white; }
+.game-header a h1 	{ background: #a39a7d; border-radius: 4px 4px 0px 0px; padding: 6px 18px 1px 18px; }
+.game-header a h1:hover { background: #70684c; border-radius: 4px 4px 0px 0px; padding: 6px 18px 1px 18px; color: #fff; }
 
 
 .game-content {
