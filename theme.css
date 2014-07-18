@@ -135,7 +135,7 @@ h2 .advice-message { color: #fff; font-size: 16px; font-family: Ubuntu Condensed
 font-size: 15px }
 #resource-bar thead th { font-weight: normal; }
 #resource-bar tbody th, #resource-bar tbody td{ width: 98px; border-right: 1px inset #222; border-bottom: 1px inset #222;
-    background: #444; padding: 3px 8px 3px 8px; font-size: 12px; font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #a39a7d; padding: 3px 8px 3px 8px; font-size: 12px; font-family: 'Trebuchet MS', Helvetica, sans-serif;
     text-align: center; color: #fff; }
 #resource-bar tbody th { font-size: 12px; font-weight: bolder; }
 #resource-bar thead th { width: 98px; }
