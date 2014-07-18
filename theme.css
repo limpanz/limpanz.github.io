@@ -183,6 +183,7 @@ div.uploader span.action
 }
 div.uploader span.filename, div.uploader span.action { font-size: 12px; }
 div.uploader span.action { background: transparent; color: #000; }
+
 .game-content form table { margin-bottom: 0px; text-align: left; }
 .game-content form table thead th { font-weight: normal; font-size: 14px; text-align: center; vertical-align: bottom; }
 .game-content form tbody th {}
@@ -271,7 +272,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 }
 
 .game-content tbody th { border-left: 1px ridge rgba(60, 60, 38, 0.4); font-family: Ubuntu Condensed; font-size: 14px; }
-.game-content tbody th:first-child { border-left: none; }
+.game-content tbody th:first-child { border-left: none; background: #958c6d;}
 .game-content tbody td { padding-right: 20px; }
 .game-content tbody tr { border-bottom: 1px groove rgba(60, 60, 38, 0.4); border-top: 1px groove rgba(60, 60, 38, 0.4); }
 .game-content tbody tr:nth-child(even) { background: #423c26; background: rgba(60, 60, 38, 0.7); }
