@@ -16,13 +16,13 @@ body {
 #header-logo { background: url(./images/logo_header.png) no-repeat top left; width: 350px; height: 82px; display: block; position: absolute; }
 #header { height: 83px;}
 #header-navigation { width: 500px; text-align: right; margin-left: 135px;}
-#header-navigation div { font-size: 16px; border: 1px solid #555; margin-top: 15px; background: #534d37; }
+#header-navigation div { font-size: 16px; border: 1px solid #555; margin-top: 15px; background: #a39a7d; }
 #header-navigation div:hover a  { color: white; background: #423c26;}
 #header-navigation a  { background: #534d37; color: white; }
 
 /* LEFT NAVIGATION */
 #game-navigation .navigation    { font-size: 16px; font-weight: normal; text-align: left; 
-border: 1px solid #18160f; padding: 0; margin: 0px 0px 10px 0px; background: #534d37; }
+border: 1px solid #18160f; padding: 0; margin: 0px 0px 10px 0px; background: #a39a7d; }
 #game-navigation .navigation a { display: block; padding: 4px 6px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
 #game-navigation .navigation a:hover, .navigation a:active, .navigation a:focus  { color: #fff !important; background: #423c26; }
 
@@ -243,13 +243,13 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .motto 			{ background: url('./images/province_profile/scroll.png') no-repeat; }
 
 .game-header 		{ height: 30px; border-bottom: 0px solid #6b6348; }
-.game-header h1		{ height: 22px; margin: 0px 1px; padding: 6px 18px 1px 18px; font-size: 18px; text-decoration: none; font-family: Ubuntu Condensed; background: #ccc; color: #000; }
+.game-header h1		{ height: 22px; margin: 0px 1px; padding: 6px 18px 1px 18px; font-size: 18px; text-decoration: none; font-family: Ubuntu Condensed; background: #545555; color: #000; }
 .game-header a h1 	{ background: #545555; }
 .game-header a h1:hover { background: #1E1E1E; color: #fff; }
 
 
 .game-content {
-    border: 0px solid; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; background: #534d37;
+    border: 0px solid; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; background: #a39a7d;
     border-color: #333;
 }
 
@@ -267,7 +267,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 .game-content thead th {
     font-family: Ubuntu Condensed; font-weight: normal; font-size: 16px;
-    text-align: center; background: #18160f; 
+    text-align: center; background: #545555; 
 }
 
 .game-content tbody th { border-left: 1px ridge rgba(60, 60, 38, 0.4); font-family: Ubuntu Condensed; font-size: 14px; }
