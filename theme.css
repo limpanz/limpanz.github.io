@@ -335,7 +335,7 @@ body.wysiwyg { font-size: 12px; background: white; color: black; }
 .two-column li { margin-right: 10px; }
 
 .recruitment-header h2 { font-size: 16px; }
-.recruitment-header { border: 1px solid #444235; background: #958c6d; padding: 10px 0px 0px 0px;}
+.recruitment-header { border: 1px solid #444235; background: #958c6d; padding-top: 10px;}
 .recruitment-header .rank-bar, .campaigns .rank-bar { background: #333; }
 .recruitment-header .selected-rank, .campaigns .selected-rank { background: blue; }
 
