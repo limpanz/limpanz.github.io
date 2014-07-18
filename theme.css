@@ -140,7 +140,7 @@ font-size: 15px }
 .game-content h3 { font-size: 20px; }
 .game-content form { font-size: 12px; font-weight: bolder; }
 
-form ul.errorlist { color: #e55700; font-size: 14px; }
+form ul.errorlist { border: 1px solid #333; background-color: #880000; color: white;  }
 
 .game-content form.change-kingdom { font-size: 14px; background: #a39a7d;}
 .game-content form.change-kingdom .change-kingdom-heading { margin-top: 0px; padding: 6px; font-size: 20px; font-family: Ubuntu Condensed; 
