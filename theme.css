@@ -42,11 +42,11 @@ border: 1px solid #18160f; padding: 0; margin: 0px 0px 10px 0px; background: #a3
 #account-header:hover {background: #423c26;}
 #account-header.selected { color: white; }
 
-#account-details { margin-top: 15px; font-size: 12px; line-height: 16px; background-color: #534d37; border: 1px solid white; background-color: #534d37; }
+#account-details { margin-top: 15px; font-size: 12px; line-height: 16px; border: 1px solid white; background: #534d37; }
 #account-details .account-title { font-size: 16px; font-weight: bolder; border-bottom: 1px solid #18160f; }
 #account-details .alert a { color: white; }
 #account-details a { color: white; }
-#account-details a:hover { text-decoration: underline; }
+#account-details a:hover { background: #423c26; text-decoration: underline; }
 #account-details .account-summary {}
 #account-details .account-signout { border-top: 1px solid #18160f; font-weight: bold; text-align: right; }
 
