@@ -20,9 +20,8 @@ body {
 #header-logo { background: url(./images/logo_header.png) no-repeat top left; width: 350px; height: 82px; display: block; position: absolute; }
 #header { height: 83px;}
 #header-navigation { width: 500px; text-align: right; margin-left: 135px;}
-#header-navigation div { font-size: 16px; border: 1px solid #555; margin-top: 15px; background: #a39a7d; }
-#header-navigation div:hover a  { color: white; background: yellow;}
 #header-navigation a  { background: #534d37; color: white; }
+#header-navigation a:hover, a:active, a:focus  { background: green; color: white; }
 
 /* LEFT NAVIGATION */
 #game-navigation .current-date { font-family: Ubuntu Condensed; margin-top: 2px; padding: 13px 0px; font-size: 18px;
