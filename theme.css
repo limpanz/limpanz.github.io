@@ -249,8 +249,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 
 .game-content {
-    border: 0px solid; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; background: #a39a7d;
-    border-color: #333;
+    border: 0px solid; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-color: #333;
 }
 
 .game-content h2 {
