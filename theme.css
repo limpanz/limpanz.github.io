@@ -285,7 +285,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .game-content tbody tr.sub-total { background: yellow; }
 .game-content tr.sub-total td { border-top: 1px solid #18160f; padding-bottom: 25px; }
 .game-content table.schedule { font-size: 12px; }
-.game-content table.schedule thead th { font-size: 10px; }
+.game-content table.schedule thead th { font-size: 11px; }
 
 .two-digit-input { width: 30px; }
 .three-digit-input { width: 40px; }
