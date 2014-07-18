@@ -120,7 +120,7 @@ h1, h2, h3 { color: white; font-weight: normal; }
 .lobby-panel .advice-message { color: #fff; background: transparent; font-family: "Trebuchet MS", Helvetica; padding: 0px 0px 0px 5px; margin:0px; border: 0px;}
 .game-content .advice-message { text-align: center; color: #fff; font-size: 16px; font-family: Ubuntu Condensed; background: #8d4436; display: block; padding: 10px; margin-top: -21px; margin-left: 0px; margin-right:0px; border: 1px solid #444235;}
 .navigation a span.advice-message:after { content: ' NEW'; font-weight: bold; }
-.warning { color: #8d4436; background: #958c6d; font-family: "Trebuchet MS", Helvetica; padding: 0px 0px 0px 5px; margin:0px; border: 0px; }
+.warning { color: #8d4436; background: #958c6d; font-family: "Trebuchet MS", Helvetica; padding: 5px; margin:0px; border: 0px; border: 1px solid #444235;}
 .error { color: #e55700; }
 
 #game-navigation .current-date { font-family: Ubuntu Condensed; margin-top: 2px; padding: 13px 0px; font-size: 18px;
