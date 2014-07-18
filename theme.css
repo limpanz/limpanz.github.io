@@ -341,7 +341,8 @@ body.wysiwyg { font-size: 12px; background: white; color: black; }
 .campaign-meter-level .full, .campaign-requirements .full { background: #444235; }
 .campaign-meter-level .inline-block-class { border: 1px solid #444235; }
 .campaign-requirements .inline-block-class { border: 1px solid #444235; }
-.campaign-meter-level .unknown, .campaign-requirements .unknown { color: #444235; }
+.campaign-meter-level div.unknown { color: #444235; }
+
 
 .campaigns .campaign-message-intro { font-size: 14px; }
 .province-name a { color: #CCC; }
