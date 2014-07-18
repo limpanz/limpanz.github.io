@@ -16,13 +16,13 @@ body {
 #header-logo { background: url(./images/logo_header.png) no-repeat top left; width: 350px; height: 82px; display: block; position: absolute; }
 #header { height: 83px;}
 #header-navigation { width: 500px; text-align: right; margin-left: 135px;}
-#header-navigation div { font-size: 16px; border: 1px solid #555; margin-top: 15px; background: #333; }
-#header-navigation div:hover a  { background: #333; color: white; background: #333;}
-#header-navigation a  { background: #333; color: white; }
+#header-navigation div { font-size: 16px; border: 1px solid #555; margin-top: 15px; background: #534d37; }
+#header-navigation div:hover a  { background: #333; color: white; background: #423c26;}
+#header-navigation a  { background: #534d37; color: white; }
 
 /* LEFT NAVIGATION */
 #game-navigation .navigation    { font-size: 16px; font-weight: normal; text-align: left; 
-border: 1px solid #555; padding: 0; margin: 0px 0px 10px 0px; background: #333; }
+border: 1px solid #423c26; padding: 0; margin: 0px 0px 10px 0px; background: #534d37; }
 #game-navigation .navigation a { display: block; padding: 4px 6px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
 #game-navigation .navigation a:hover, .navigation a:active, .navigation a:focus  { color: #fff !important; background: #666; }
 
@@ -35,7 +35,7 @@ border: 1px solid #555; padding: 0; margin: 0px 0px 10px 0px; background: #333; 
 #account-header:hover {}
 #account-header.selected { color: white; }
 
-#account-details { margin-top: 15px; font-size: 12px; line-height: 16px; background-color: black; border: 1px solid white; background-color: #333; }
+#account-details { margin-top: 15px; font-size: 12px; line-height: 16px; background-color: #534d37; border: 1px solid white; background-color: #333; }
 #account-details .account-title { font-size: 16px; font-weight: bolder; border-bottom: 1px solid #103041; }
 #account-details .alert a { color: white; }
 #account-details a { color: white; }
@@ -249,7 +249,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 
 .game-content {
-    border: 0px solid; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; background: #444;
+    border: 0px solid; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; background: #534d37;
     border-color: #333;
     -moz-box-shadow:    0px -1px 1px #fffbf1,
                                     inset 0px 1px 2px #000,
