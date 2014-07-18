@@ -116,8 +116,8 @@ h1, h2, h3 { color: white; font-weight: normal; }
 .lobby-panel .statement { background: url('./images/province_profile/scroll.png') no-repeat; }
 .lobby-panel .statement h2 { line-height: 16px; }
 
-.advice-message { color: #fff; font-size: 16px; font-family: Ubuntu Condensed; background: #8d4436; display: block; padding: 10px; margin-top: -21px; margin-left: 0px; margin-right:0px;}
-.lobby-panel .advice-message { color: #fff; background: transparent; font-family: "Trebuchet MS", Helvetica; padding: 0px 0px 0px 5px; margin:0px;}
+.advice-message { color: #fff; font-size: 16px; font-family: Ubuntu Condensed; background: #8d4436; display: block; padding: 10px; margin-top: -21px; margin-left: 0px; margin-right:0px; border: 0px solid #444235;}
+.lobby-panel .advice-message { color: #fff; background: transparent; font-family: "Trebuchet MS", Helvetica; padding: 0px 0px 0px 5px; margin:0px; border: 0px solid #444235;}
 .navigation a span.advice-message:after { content: ' NEW'; font-weight: bold; }
 .warning { color: #e55700; }
 .error { color: #e55700; }
