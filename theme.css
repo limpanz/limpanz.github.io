@@ -204,7 +204,7 @@ div.uploader span.action { background: transparent; color: #000; }
 .game-content form tbody tr { border: none; }
 .game-content form tbody tr:nth-child(even) { background: #958c6d; }
 .game-content form tbody tr:nth-child(odd) { background: #7a735a; }
-
+.game-content form tfoot th { background: #a39a7d; }
 
 /* KINGDOM NEWS */
 .news-legend { background: #a39a7d; margin-top: 0px; padding: 6px;}
