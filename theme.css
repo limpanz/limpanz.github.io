@@ -30,7 +30,7 @@ body {
 
 #game-navigation .navigation    { font-size: 16px; font-weight: normal; text-align: left; 
 border: 1px solid #18160f; padding: 0; margin: 0px 0px 10px 0px; background: #a39a7d; }
-#game-navigation .navigation a { display: block; padding: 4px 6px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
+#game-navigation .navigation a { display: block; padding: 4px 6px; margin: 0; border-right: noneea; text-decoration: none; color: #fff; }
 #game-navigation .navigation a:hover, .navigation a:focus  { color: #fff !important; background: #423c26; }
 
 
@@ -42,8 +42,8 @@ border: 1px solid #18160f; padding: 0; margin: 0px 0px 10px 0px; background: #a3
 #account-header:hover {background: #423c26;}
 #account-header.selected { color: white; }
 
-#account-details { margin-top: 15px; font-size: 12px; line-height: 16px; border: 1px solid white; background: #534d37; }
-#account-details .account-title { font-size: 16px; font-weight: bolder; border-bottom: 1px solid #18160f; }
+#account-details { margin-top: 15px; font-size: 12px; line-height: 16px; border: 1px solid #18160f; background: #534d37; }
+#account-details .account-title { font-size: 16px; font-family: Ubuntu Condensed; border-bottom: 1px solid #18160f; }
 #account-details .alert a { color: white; }
 #account-details a { color: white; }
 #account-details a:hover { text-decoration: underline; }
