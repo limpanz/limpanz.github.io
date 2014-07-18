@@ -338,7 +338,7 @@ body.wysiwyg { font-size: 12px; background: white; color: black; }
 .recruitment-header { border: 1px solid #444235; background: #958c6d; padding-top: 10px;}
 .recruitment-header .rank-bar, .campaigns .rank-bar { background: #444235; }
 .recruitment-header .selected-rank, .campaigns .selected-rank { background: #676452; }
-.inline-block-class { background: #444235; }
+.inline-block-class full { background: #444235; }
 
 .campaigns .campaign-message-intro { font-size: 14px; }
 .province-name a { color: #CCC; }
