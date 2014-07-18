@@ -81,14 +81,14 @@ h1, h2, h3 { color: white; font-weight: normal; }
 
 .overlay .close { background-image:url("./images/overlay-close.png"); }
 
-.age-changes, .lobby-panel, .campaigns { border: 2px solid; border-color: #362f15; background-color: #333; }
+.age-changes, .lobby-panel, .campaigns { border: 1px solid #444235; background: #a39a7d; }
 .lobby-panel h1 { font-size: 25px; line-height: 25px; color: white; }
 .lobby-panel h1 a { color: gold; }
 .lobby-panel h1 a:hover {}
 .divider {}
 .divider-small {}
 
-.lobby-panel table { border: 1px solid #444235; }
+.lobby-panel table { border: 0px solid #444235; }
 .lobby-panel table th { font-size: 14px; }
 .lobby-panel table td { font-size: 12px; }
 .lobby-panel h2 { font-size: 18px; line-height: 24px; }
