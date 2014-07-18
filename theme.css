@@ -53,8 +53,8 @@ border: 1px solid #18160f; padding: 0; margin: 0px 0px 10px 0px; background: #a3
 #middle {}
 
 a { color: Gold; text-decoration: none; }
-a.highlighted { color: #E68910; }
-a:focus, a:hover, a:active { text-decoration: underline; }
+a.highlighted { color: #E68910; padding: 0px; margin: 0px; border: 0px; background: transparent;}
+a:focus, a:hover, a:active { text-decoration: underline; padding: 0px; margin: 0px; border: 0px; background: transparent}
 
 h1, h2, h3 { color: white; font-weight: normal; }
 
