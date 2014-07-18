@@ -87,6 +87,7 @@ h1, h2, h3 { color: white; font-weight: normal; }
 .divider {}
 .divider-small {}
 
+.lobby-panel table { border: 1px solid #444235; }
 .lobby-panel table th { font-size: 14px; }
 .lobby-panel table td { font-size: 12px; }
 .lobby-panel h2 { font-size: 18px; line-height: 24px; }
@@ -185,7 +186,7 @@ div.uploader span.action
 div.uploader span.filename, div.uploader span.action { font-size: 12px; }
 div.uploader span.action { background: transparent; color: #000; }
 
-.game-content form table { margin-bottom: 0px; text-align: left; }
+.game-content form table { margin-bottom: 0px; text-align: left; border: 1px solid #444235;}
 .game-content form table thead th { font-weight: normal; font-size: 14px; text-align: center; vertical-align: bottom; }
 .game-content form tbody th {}
 /* .game-content form tbody th:first-child { border-left: none; background: #958c6d; } */
