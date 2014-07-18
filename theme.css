@@ -186,7 +186,7 @@ div.uploader span.action { background: transparent; color: #000; }
 .game-content form table { margin-bottom: 0px; text-align: left; }
 .game-content form table thead th { font-weight: normal; font-size: 14px; text-align: center; vertical-align: bottom; }
 .game-content form tbody th {}
-.game-content form tbody th:first-child { border-left: none; }
+.game-content form tbody th:first-child { border-left: none; background: #958c6d; }
 .game-content form tbody td { padding-right: 20px; font-size: 12px; text-align: center; }
 .game-content form tbody tr { border: none; }
 .game-content form tbody tr:nth-child(even) { background: #555; }
