@@ -128,19 +128,17 @@ h2 .advice-message { color: #fff; font-size: 16px; font-family: Ubuntu Condensed
 .error { color: #e55700; }
 
 
-
-#resource-bar { border: 2px solid; border-radius: 2px; border-color: #18160f; -moz-border-radius: 2px; -webkit-border-radius: 2px;
-    font-family: Ubuntu Condensed; font-size: 16px;
-    -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68; }
-#resource-bar thead { background: #362f15; color: gold; line-height: 20px; text-align: center; padding: 3px 8px 3px 8px; 
+/* RESOURCE BAR */
+#resource-bar { border: 1px solid; border-radius: 2px; border-color: #444235; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+    font-family: Ubuntu Condensed; font-size: 16px; }
+#resource-bar thead { background: #444235; color: gold; line-height: 20px; text-align: center; padding: 3px 8px 3px 8px; 
 font-size: 15px }
 #resource-bar thead th { font-weight: normal; }
 #resource-bar tbody th, #resource-bar tbody td{ width: 98px; border-right: 1px inset #222; border-bottom: 1px inset #222;
     background: #444; padding: 3px 8px 3px 8px; font-size: 12px; font-family: 'Trebuchet MS', Helvetica, sans-serif;
     text-align: center; color: #fff; }
 #resource-bar tbody th { font-size: 12px; font-weight: bolder; }
-#resource-bar thead th { width: 98px; border-right: 1px inset #222; border-bottom: 1px inset #222; }
+#resource-bar thead th { width: 98px; }
 
 #resource-bar .positive { color: #87ac24; /* GOODGREEN #87ac24 */ }
 #resource-bar .negative { color: #ea5050; /* BADRED #ea5050 */ }
