@@ -270,13 +270,14 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 }
 
+.game-content table {border: 1px solid #444235;}
+
 .game-content thead th {
     font-family: Ubuntu Condensed; font-weight: normal; font-size: 16px;
-    text-align: center; background: #545555; border: 1px solid #444235;
+    text-align: center; background: #6c6348;
 }
 
-.game-content tbody th { border-left: 1px ridge rgba(60, 60, 38, 0.4); font-family: Ubuntu Condensed; font-size: 14px; }
-/* .game-content tbody th:first-child { border-left: none; background: #958c6d; background: #423c26;} */
+.game-content tbody th { font-family: Ubuntu Condensed; font-size: 14px; }
 .game-content tbody td { padding-right: 20px; }
 .game-content tbody tr { border-bottom: 1px groove rgba(60, 60, 38, 0.4); border-top: 1px groove rgba(60, 60, 38, 0.4); }
 .game-content tbody tr:nth-child(even) { background: #958c6d; }
