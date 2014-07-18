@@ -11,7 +11,7 @@ body {
 	background: url(http://order.pickalot.se/_old_sites/temp/bgtemp.jpg) no-repeat fixed;
 }
 
-.game-content p { background: #958c6d; display: block; padding: 10px; margin-left: -10px; margin-right: -10px; margin-top: -10px;}
+.game-content p { background: #958c6d; display: block; padding: 12px; margin-left: -6px; margin-right: -6px; margin-top: -6px;}
 
 /* HEADER */
 #header-logo { background: url(./images/logo_header.png) no-repeat top left; width: 350px; height: 82px; display: block; position: absolute; }
