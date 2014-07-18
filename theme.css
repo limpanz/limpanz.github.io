@@ -108,7 +108,7 @@ h1, h2, h3 { color: white; font-weight: normal; }
 .lobby-panel .statement { background: url('./images/province_profile/scroll.png') no-repeat; }
 .lobby-panel .statement h2 { line-height: 16px; }
 
-.advice-message { color: #fff !important; background: #a39a7d; display: block; padding: 10px; margin-top: -20px; margin-left: 0px; margin-right:0px;}
+.advice-message { color: #fff !important; background: #ff3333; display: block; padding: 10px; margin-top: -21px; margin-left: 0px; margin-right:0px;}
 .navigation a span.advice-message:after { content: ' NEW'; font-weight: bold; }
 .warning { color: #e55700; }
 .error { color: #e55700; }
