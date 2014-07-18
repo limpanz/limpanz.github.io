@@ -132,7 +132,7 @@ font-size: 15px }
 #resource-bar .positive { color: #87ac24; /* GOODGREEN #87ac24 */ }
 #resource-bar .negative { color: #ea5050; /* BADRED #ea5050 */ }
 
-.game-content h2 { background-color: #534d37; }
+.game-content h2 { background-color: #444235; }
 .game-content h3 { font-size: 20px; }
 .game-content form { font-size: 12px; font-weight: bolder; }
 
