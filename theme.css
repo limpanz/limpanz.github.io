@@ -116,7 +116,7 @@ h1, h2, h3 { color: white; font-weight: normal; }
 .navigation a span.advice-message:after { content: ' NEW'; font-weight: bold; }
 .warning { color: #e55700; }
 .error { color: #e55700; }
-.error-list { color: #e55700; font-size: 14px;}
+ul .error-list { color: #e55700; font-size: 14px;}
 
 #game-navigation .current-date { font-family: Ubuntu Condensed; margin-top: 2px; padding: 13px 0px; font-size: 18px;
 	border: 1px solid #18160f;	background: #333; }
