@@ -106,6 +106,10 @@ h1, h2, h3 { color: white; font-weight: normal; }
 .bad.message { border: 1px solid #333; background-color: #880000; color: white; }
 .info.message {background-color: #C46500; color: white; }
 
+.recruitment-campaigns
+
+
+
 
 /* User profile page
 -------------------------------------------------------------- */
@@ -331,8 +335,9 @@ body.wysiwyg { font-size: 12px; background: white; color: black; }
 .two-column li { margin-right: 10px; }
 
 .recruitment-header h2 { font-size: 16px; }
-.recruitment-header .rank-bar, .campaigns .rank-bar { background-color: #04B404; }
-.recruitment-header .selected-rank, .campaigns .selected-rank { background-color: #40FF00; }
+.recruitment-header { border: 1px solid #444235; background: #958c6d; }
+.recruitment-header .rank-bar, .campaigns .rank-bar { background: #333; }
+.recruitment-header .selected-rank, .campaigns .selected-rank { background: blue; }
 
 .campaigns .campaign-message-intro { font-size: 14px; }
 .province-name a { color: #CCC; }
