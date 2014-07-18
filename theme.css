@@ -274,7 +274,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .game-content tbody th:first-child { border-left: none; }
 .game-content tbody td { padding-right: 20px; }
 .game-content tbody tr { border-bottom: 1px groove rgba(83, 77, 55, 0.4); border-top: 1px groove rgba(83, 77, 55, 0.4); }
-.game-content tbody tr:nth-child(even) { background: #534d37; background: rgba(83, 77, 55, 0.7); }
+.game-content tbody tr:nth-child(even) { background: #423c26; background: rgba(83, 77, 55, 0.7); }
 .game-content tbody tr.sub-total { background: none; }
 .game-content tr.sub-total td { border-top: 1px solid #B9B9B9; padding-bottom: 25px; }
 .game-content table.schedule { font-size:0.8em; }
