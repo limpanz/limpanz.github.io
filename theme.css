@@ -53,7 +53,7 @@ h1, h2, h3 { color: white; font-weight: normal; }
 
 #footer { color: #4d5355; font-size: 10px; }
 
-.report-this { color: gold; background-color: #18100e; border-bottom-left-radius: 8px 8px;
+.report-this { color: gold; background-color: #362f15; border-bottom-left-radius: 8px 8px;
     -moz-border-radius-bottomleft: 8px 8px;
     -moz-box-shadow: 0px 3px 4px #000;
     -webkit-box-shadow: 0px 3px 4px #000;
@@ -78,7 +78,7 @@ h1, h2, h3 { color: white; font-weight: normal; }
 
 .overlay .close { background-image:url("./images/overlay-close.png"); }
 
-.age-changes, .lobby-panel, .campaigns { border: 2px solid; border-color: #555555; background-color: #333; }
+.age-changes, .lobby-panel, .campaigns { border: 2px solid; border-color: #362f15; background-color: #333; }
 .lobby-panel h1 { font-size: 25px; line-height: 25px; color: white; }
 .lobby-panel h1 a { color: gold; }
 .lobby-panel h1 a:hover {}
@@ -120,7 +120,7 @@ h1, h2, h3 { color: white; font-weight: normal; }
     font-family: Ubuntu Condensed; font-size: 16px;
     -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
     -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68; }
-#resource-bar thead { background: #18160f; color: gold; line-height: 20px; text-align: center; padding: 3px 8px 3px 8px; 
+#resource-bar thead { background: #362f15; color: gold; line-height: 20px; text-align: center; padding: 3px 8px 3px 8px; 
 font-size: 15px }
 #resource-bar thead th { font-weight: normal; }
 #resource-bar tbody th, #resource-bar tbody td{ width: 98px; border-right: 1px inset #222; border-bottom: 1px inset #222;
@@ -132,7 +132,7 @@ font-size: 15px }
 #resource-bar .positive { color: #87ac24; /* GOODGREEN #87ac24 */ }
 #resource-bar .negative { color: #ea5050; /* BADRED #ea5050 */ }
 
-.game-content h2 { background-color: #18160f; }
+.game-content h2 { background-color: #362f15; }
 .game-content h3 { font-size: 20px; }
 .game-content form { font-size: 12px; font-weight: bolder; }
 
