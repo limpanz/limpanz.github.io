@@ -131,7 +131,7 @@ h2 .advice-message { color: #fff; font-size: 16px; font-family: Ubuntu Condensed
 /* RESOURCE BAR */
 #resource-bar { border: 1px solid; border-radius: 2px; border-color: #444235; -moz-border-radius: 2px; -webkit-border-radius: 2px;
     font-family: Ubuntu Condensed; font-size: 16px; }
-#resource-bar thead { background: #444235; color: gold; line-height: 20px; text-align: center; padding: 3px 8px 3px 8px; 
+#resource-bar thead { background: #444235; color: gold; line-height: 21px; text-align: center; padding: 3px 8px 4px 8px; 
 font-size: 15px }
 #resource-bar thead th { font-weight: normal; }
 #resource-bar tbody th, #resource-bar tbody td{ width: 98px; border-right: 1px inset #222; border-bottom: 1px inset #222;
