@@ -21,8 +21,8 @@ body {
 #header { height: 83px;}
 #header-navigation .navigation {margin: 0px; padding: 0px; }
 #header-navigation { width: 500px; text-align: right; margin-left: 135px;}
-#header-navigation a  { padding: 7px 14px; margin: 10px 5px 0px 0px; background: #534d37; color: white; border: 1px solid #18160f; }
-#header-navigation a:hover, a:active, a:focus  { padding: 7px 14px; margin: 10px 5px 0px 0px; background: #423c26; color: white; border: 1px solid #18160f; }
+#header-navigation a  { padding: 6px 10px; font-size: 12px; margin: 10px 5px 0px 0px; background: #534d37; color: white; border: 1px solid #18160f; }
+#header-navigation a:hover, a:active, a:focus  { padding: 6px 10px; font-size: 12px; margin: 10px 5px 0px 0px; background: #423c26; color: white; border: 1px solid #18160f; }
 
 /* LEFT NAVIGATION */
 #game-navigation .current-date { font-family: Ubuntu Condensed; margin-top: 2px; padding: 13px 0px; font-size: 18px;
