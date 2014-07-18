@@ -17,31 +17,31 @@ body {
 #header { height: 83px;}
 #header-navigation { width: 500px; text-align: right; margin-left: 135px;}
 #header-navigation div { font-size: 16px; border: 1px solid #555; margin-top: 15px; background: #534d37; }
-#header-navigation div:hover a  { background: #333; color: white; background: #423c26;}
+#header-navigation div:hover a  { color: white; background: #423c26;}
 #header-navigation a  { background: #534d37; color: white; }
 
 /* LEFT NAVIGATION */
 #game-navigation .navigation    { font-size: 16px; font-weight: normal; text-align: left; 
 border: 1px solid #18160f; padding: 0; margin: 0px 0px 10px 0px; background: #534d37; }
 #game-navigation .navigation a { display: block; padding: 4px 6px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
-#game-navigation .navigation a:hover, .navigation a:active, .navigation a:focus  { color: #fff !important; background: #666; }
+#game-navigation .navigation a:hover, .navigation a:active, .navigation a:focus  { color: #fff !important; background: #423c26; }
 
 
 
 #account-container { margin-top: 5px; font-size: 16px; }
 #account-header .account-image { background: url(./images/anonymous_small.png) no-repeat top left; 
     border-bottom-left-radius: 2px 2px; -moz-border-radius-bottomleft: 2px 2px; }
-#account-header { margin-top: 15px; background-color: #333; }
+#account-header { margin-top: 15px; background-color: #534d37; }
 #account-header:hover {}
 #account-header.selected { color: white; }
 
 #account-details { margin-top: 15px; font-size: 12px; line-height: 16px; background-color: #534d37; border: 1px solid white; background-color: #333; }
-#account-details .account-title { font-size: 16px; font-weight: bolder; border-bottom: 1px solid #103041; }
+#account-details .account-title { font-size: 16px; font-weight: bolder; border-bottom: 1px solid #18160f; }
 #account-details .alert a { color: white; }
 #account-details a { color: white; }
 #account-details a:hover { text-decoration: underline; }
 #account-details .account-summary {}
-#account-details .account-signout { border-top: 1px solid #103041; font-weight: bold; text-align: right; }
+#account-details .account-signout { border-top: 1px solid #18160f; font-weight: bold; text-align: right; }
 
 #middle {}
 
@@ -114,13 +114,13 @@ h1, h2, h3 { color: white; font-weight: normal; }
 
 
 #game-navigation .current-date { font-family: Ubuntu Condensed; margin-top: 2px; padding: 13px 0px; font-size: 18px;
-	border: 1px solid #555;	background: #333; }
+	border: 1px solid #18160f;	background: #333; }
 
-#resource-bar { border: 2px solid; border-radius: 2px; border-color: #2E2F2F; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+#resource-bar { border: 2px solid; border-radius: 2px; border-color: #18160f; -moz-border-radius: 2px; -webkit-border-radius: 2px;
     font-family: Ubuntu Condensed; font-size: 16px;
     -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
     -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68; }
-#resource-bar thead { background: #222; color: gold; line-height: 20px; text-align: center; padding: 3px 8px 3px 8px; 
+#resource-bar thead { background: #18160f; color: gold; line-height: 20px; text-align: center; padding: 3px 8px 3px 8px; 
 font-size: 15px }
 #resource-bar thead th { font-weight: normal; }
 #resource-bar tbody th, #resource-bar tbody td{ width: 98px; border-right: 1px inset #222; border-bottom: 1px inset #222;
@@ -132,7 +132,7 @@ font-size: 15px }
 #resource-bar .positive { color: #87ac24; /* GOODGREEN #87ac24 */ }
 #resource-bar .negative { color: #ea5050; /* BADRED #ea5050 */ }
 
-.game-content h2 { background-color: #222; }
+.game-content h2 { background-color: #18160f; }
 .game-content h3 { font-size: 20px; }
 .game-content form { font-size: 12px; font-weight: bolder; }
 
