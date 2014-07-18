@@ -21,7 +21,7 @@ body {
 #header { height: 83px;}
 #header-navigation .navigation {margin: 0px; padding: 0px; }
 #header-navigation { width: 500px; text-align: right; margin-left: 125px; }
-#header-navigation div { margin-top: 20px; }
+#header-navigation div { padding-top: 60px; }
 #header-navigation a  { padding: 3px 10px; font-size: 14px; margin: 30px 5px 0px 0px; background: #534d37; color: white; border: 1px solid #18160f; }
 #header-navigation a:hover, a:active, a:focus  { padding: 3px 10px; font-size: 14px; margin: 30px 5px 0px 0px; background: #423c26; color: white; border: 1px solid #18160f; }
 
