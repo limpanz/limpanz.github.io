@@ -198,6 +198,7 @@ div.uploader span.action { background: transparent; color: #000; }
 
 
 /* KINGDOM NEWS */
+.news-legend { background: #a39a7d; }
 .news-legend span.news-aid:before { content: url(./images/kingdom_news/aid_inline.png); }
 .news-legend span.news-intra-kingdom-conflict:before { content: url(./images/kingdom_news/intra_kingdom_conflict_inline.png); }
 .news-legend span.news-actions-against-our-kingdom:before { content: url(./images/kingdom_news/actions_against_our_kingdom_inline.png); }
