@@ -22,7 +22,7 @@ body {
 
 /* LEFT NAVIGATION */
 #game-navigation .navigation    { font-size: 16px; font-weight: normal; text-align: left; 
-border: 1px solid #423c26; padding: 0; margin: 0px 0px 10px 0px; background: #534d37; }
+border: 1px solid #18160f; padding: 0; margin: 0px 0px 10px 0px; background: #534d37; }
 #game-navigation .navigation a { display: block; padding: 4px 6px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
 #game-navigation .navigation a:hover, .navigation a:active, .navigation a:focus  { color: #fff !important; background: #666; }
 
@@ -267,16 +267,16 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 .game-content thead th {
     font-family: Ubuntu Condensed; font-weight: normal; font-size: 16px;
-    text-align: center; background: #2E2F2F; 
+    text-align: center; background: #18160f; 
 }
 
-.game-content tbody th { border-left: 1px ridge rgba(83, 77, 55, 0.4); font-family: Ubuntu Condensed; font-size: 14px; }
+.game-content tbody th { border-left: 1px ridge rgba(60, 60, 38, 0.4); font-family: Ubuntu Condensed; font-size: 14px; }
 .game-content tbody th:first-child { border-left: none; }
 .game-content tbody td { padding-right: 20px; }
-.game-content tbody tr { border-bottom: 1px groove rgba(83, 77, 55, 0.4); border-top: 1px groove rgba(83, 77, 55, 0.4); }
-.game-content tbody tr:nth-child(even) { background: #423c26; background: rgba(83, 77, 55, 0.7); }
+.game-content tbody tr { border-bottom: 1px groove rgba(60, 60, 38, 0.4); border-top: 1px groove rgba(60, 60, 38, 0.4); }
+.game-content tbody tr:nth-child(even) { background: #423c26; background: rgba(60, 60, 38, 0.7); }
 .game-content tbody tr.sub-total { background: none; }
-.game-content tr.sub-total td { border-top: 1px solid #B9B9B9; padding-bottom: 25px; }
+.game-content tr.sub-total td { border-top: 1px solid #18160f; padding-bottom: 25px; }
 .game-content table.schedule { font-size:0.8em; }
 
 .two-digit-input { width: 30px; }
