@@ -124,7 +124,7 @@ h2 .advice-message { color: #fff; font-size: 16px; font-family: Ubuntu Condensed
 .lobby-panel .advice-message { color: #fff; background: transparent; font-family: "Trebuchet MS", Helvetica; padding: 0px 0px 0px 5px; margin:0px; border: 0px;}
 .game-content .advice-message { text-align: center; color: #fff; font-size: 16px; font-family: Ubuntu Condensed; background: #8d4436; display: block; padding: 10px; margin-top: -21px; margin-left: 0px; margin-right:0px; border: 1px solid #444235;}
 
-.game-content td span.advice-message { float: right; border: 0px; padding-top: 15px; color: gold; background: transparent; font-size: 14px;}
+.game-content td span.advice-message { float: right; border: 0px; padding-top: 20px; color: gold; background: transparent; font-size: 12px;}
 
 
 .navigation a span.advice-message { float: right; border: 0px; padding-left: 10px; padding-top: 6px;  color: gold; background: transparent; font-size: 14px;}
