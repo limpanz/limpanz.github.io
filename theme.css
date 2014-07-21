@@ -11,7 +11,7 @@ body {
 	background: url(http://order.pickalot.se/_old_sites/temp/bgtemp.jpg) no-repeat fixed;
 }
 
-.game-content p { background: #958c6d; display: block; padding: 12px; border: 1px solid #444235; margin-left: 0px; margin-right: 0px; margin-top: 0px;}
+.game-content p { background: #958c6d; display: block; padding: 12px; border: 1px solid #444235; margin-left: 0px; margin-right: 0px; margin-top: 0px; z-index: -1;}
 .reportable img { margin: 10px; border: 1px solid black; border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px;}
 .two-column-stats tbody {border: 1px solid #444235;}
 .page-summary {background: #958c6d; display: block; padding: 12px; border: 1px solid #444235; margin-left: 0px; margin-right: 0px; margin-top: 0px;}
