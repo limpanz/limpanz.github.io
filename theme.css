@@ -133,7 +133,7 @@ h2 .advice-message { color: #fff; font-size: 16px; font-family: Ubuntu Condensed
 .error { color: #e55700; }
 
 
-.pagination { color: #fff; font-size: 12px; background: #958c6d; display: block; padding: 4px; margin-top: -21px; margin-bottom: -2px; z-index: 9999; margin-left: 0px; margin-right:0px; border-left: 1px solid #444235; border-right: 1px solid #444235;}
+.pagination { color: #fff; font-size: 12px; background: #958c6d; display: block; padding: 4px; margin-top: -21px; margin-bottom: -3px; z-index: 999999; margin-left: 0px; margin-right:0px; border-left: 1px solid #444235; border-right: 1px solid #444235;}
 
 
 
