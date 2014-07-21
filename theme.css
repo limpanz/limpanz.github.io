@@ -315,8 +315,8 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .six-digit-input { width: 70px; }
 
 /* GAME PREFERENCES */
-.game-content div.preference-box { background: #333; }
-.game-content div.preference-box.disabled { background: #534d37; }
+.game-content div.preference-box { background: #958c6d; }
+.game-content div.preference-box.disabled { background: #534d37; color: #333;}
 
 div.wysiwyg { border: 0px solid #999; padding: 5px; }
 div.wysiwyg ul.toolbar li { border: 0px outset black; }
