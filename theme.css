@@ -133,6 +133,10 @@ h2 .advice-message { color: #fff; font-size: 16px; font-family: Ubuntu Condensed
 .error { color: #e55700; }
 
 
+.pagination { color: #fff; font-size: 16px; background: #958c6d; display: block; padding: 10px; margin-top: -21px; margin-left: 0px; margin-right:0px; border: 1px solid #444235;}
+
+
+
 /* RESOURCE BAR */
 #resource-bar { border: 1px solid; border-radius: 2px; border-color: #444235; -moz-border-radius: 2px; -webkit-border-radius: 2px;
     font-family: Ubuntu Condensed; font-size: 16px; }
