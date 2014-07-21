@@ -17,7 +17,7 @@ body {
 .page-summary {background: #958c6d; display: block; padding: 12px; border: 1px solid #444235; margin-left: 0px; margin-right: 0px; margin-top: 0px;}
 .game-content img { margin: 10px; border: 1px solid black; border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px;}
 .game-content ul { background: #958c6d; display: block; padding: 12px; border: 1px solid #444235; margin-left: 0px; margin-right: 0px; margin-top: 0px;}
-.game-content ul li {padding-left: 10px; }
+.game-content li { padding-left: 14px; }
 
 /* HEADER */
 #header-logo { background: url(./images/logo_header.png) no-repeat top left; width: 350px; height: 82px; display: block; position: absolute; }
