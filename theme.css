@@ -89,7 +89,7 @@ h1, h2, h3 { color: white; font-weight: normal; }
 .overlay .close { background-image:url("./images/overlay-close.png"); }
 
 .age-changes, .lobby-panel, .campaigns { border: 1px solid #444235; background: #958c6d; }
-.lobby-panel h1 { font-size: 25px; line-height: 25px; color: white; }
+.lobby-panel h1 { font-size: 25px; line-height: 25px; color: white; font-family: Ubuntu Condensed;}
 .lobby-panel h1 a { color: gold; }
 .lobby-panel h1 a:hover {}
 .divider {}
