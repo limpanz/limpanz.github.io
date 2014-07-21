@@ -233,10 +233,10 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 /* KINGDOM DETAILS */
 .unused-slot { color: #B0B0B0; }
 .protected, .intel-fresh { color: #99ffbb; }
-.monarch, .at-war, .intel-rotten { color: #F28585; }
-.chamberlain, .intel-stale { color: #FFC583; }
+.monarch, .at-war, .intel-rotten { color: #da4444; }
+.chamberlain, .intel-stale { color: #ffaa4a; }
 .you { font-weight: bold; }
-.slot-number { font-size: 0.8em; color: #B0B0B0; }
+.slot-number { font-size: 0.8em; color: white; }
 
 .provinces-legend { font-size: 0.8em; }
 .provinces-legend .invitations { font-size: 1.2em; }
@@ -352,5 +352,5 @@ body.wysiwyg { font-size: 12px; background: white; color: black; }
 
 
 .campaigns .campaign-message-intro { font-size: 14px; }
-.province-name a { color: #CCC; }
+.province-name a { color: #dedede; }
 .province-name a:hover { color: #fff; }
