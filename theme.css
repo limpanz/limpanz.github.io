@@ -229,6 +229,7 @@ td.news-obituaries { background-image: url(./images/kingdom_news/obituaries.png)
 td.news-relations { background-image: url(./images/kingdom_news/relations.png); }
 td.news-province-modification { background-image: url(./images/kingdom_news/province_modification.png); }
 
+.mail-view {background: #a39a7d; }
 
 /* KINGDOM DETAILS */
 .unused-slot { color: #B0B0B0; }
@@ -354,3 +355,4 @@ body.wysiwyg { font-size: 12px; background: white; color: black; }
 .campaigns .campaign-message-intro { font-size: 14px; }
 .province-name a { color: #dedede; }
 .province-name a:hover { color: #fff; }
+
