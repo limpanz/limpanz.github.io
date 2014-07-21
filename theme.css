@@ -103,7 +103,7 @@ h1, h2, h3 { color: white; font-weight: normal; }
 .campaigns .basic-details .campaign-summary .highlight-keyword{ font-size: 18px; }
 
 .good { color: #90ee90; }
-.bad { color: red; }
+.bad { color: #8d4436; }
 .message { font-weight: bold; line-height: 1.5em; }
 .good.message { border: 1px solid #555; background-color: #659D32; color: white; }
 .bad.message { border: 1px solid #333; background-color: #880000; color: white; }
