@@ -11,7 +11,7 @@ body {
 	background: url(http://order.pickalot.se/_old_sites/temp/bgtemp.jpg) no-repeat fixed;
 }
 
-.game-content p { background: #958c6d; display: block; padding: 12px; border: 1px solid #444235; margin-left: 0px; margin-right: 0px; margin-top: 0px; z-index: -1;}
+.game-content p { background: #958c6d; display: block; padding: 12px; border: 1px solid #444235; margin-left: 0px; margin-right: 0px; margin-top: 0px;}
 .reportable img { margin: 10px; border: 1px solid black; border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px;}
 .two-column-stats tbody {border: 1px solid #444235;}
 .page-summary {background: #958c6d; display: block; padding: 12px; border: 1px solid #444235; margin-left: 0px; margin-right: 0px; margin-top: 0px;}
@@ -133,7 +133,7 @@ h2 .advice-message { color: #fff; font-size: 16px; font-family: Ubuntu Condensed
 .error { color: #e55700; }
 
 
-.pagination { color: #fff; font-size: 12px; background: #958c6d; display: block; padding: 4px; margin-top: -21px; margin-bottom: -3px; z-index: 999999; margin-left: 0px; margin-right:0px; border-left: 1px solid #444235; border-right: 1px solid #444235;}
+.pagination { color: #fff; font-size: 12px; background: #958c6d; display: block; padding: 5px; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right:0px; border-left: 1px solid #444235; border-right: 1px solid #444235;}
 
 
 
