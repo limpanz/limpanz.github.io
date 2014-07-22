@@ -245,7 +245,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .at-war, .intel-rotten { color: #bb1a1a;}
 
 /* .monarch { color: #bb1a1a; font-weight: bold;} */
-.monarch { background: #b7684c; color: #bb1a1a; font-weight: bold;}
+.monarch { background: #b7684c !important; color: #bb1a1a; font-weight: bold;}
 
 .chamberlain { color: green; }
 
@@ -255,7 +255,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 .provinces-legend { font-size: 0.8em; }
 .provinces-legend .invitations { font-size: 1.2em; }
-.provinces-legend .monarch {color:blue;}
+.provinces-legend .monarch {color: #bb1a1a; background: transparent !important;}
 
 
 
