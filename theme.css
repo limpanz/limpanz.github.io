@@ -238,13 +238,14 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 .mail-view {background: #958c6d; }
 
+
 /* KINGDOM DETAILS */
 .unused-slot { color: #B0B0B0; }
 .protected, .intel-fresh { color: #99ffbb; }
 .at-war, .intel-rotten { color: #bb1a1a;}
 
 /* .monarch { color: #bb1a1a; font-weight: bold;} */
-tr .monarch { background: #b7684c; color: #bb1a1a; font-weight: bold;}
+.monarch { background: #b7684c; color: #bb1a1a; font-weight: bold;}
 
 .chamberlain { color: green; }
 
@@ -254,6 +255,9 @@ tr .monarch { background: #b7684c; color: #bb1a1a; font-weight: bold;}
 
 .provinces-legend { font-size: 0.8em; }
 .provinces-legend .invitations { font-size: 1.2em; }
+.provinces-legend .monarch {color:blue;}
+
+
 
 .dip-status { color: #000; }
 .dip-status-NORMAL { background-color: #01DF01; }
