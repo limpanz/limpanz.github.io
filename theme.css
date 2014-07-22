@@ -241,20 +241,25 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 /* KINGDOM DETAILS */
 .unused-slot { color: #B0B0B0; }
-.protected, .intel-fresh { color: #99ffbb; }
+.intel-fresh { color: #99ffbb; }
 .at-war, .intel-rotten { color: #bb1a1a;}
 
 /* .monarch { color: #bb1a1a; font-weight: bold;} */
 .monarch { background: #b7684c !important; color: #bb1a1a; font-weight: bold;}
 .chamberlain { background: #d5b34d !important; color: #86680c; font-weight: bold; }
+.protected { background: #99ffbb !important; color: #1e9883; }
+
+/* 
 .you { background: #74bd5d !important; color: #458631; font-weight: bold; }
+.provinces-legend .you { color: #458631; background: transparent !important; }
+*/
 
 .intel-stale { color: #ffaa4a; }
 .slot-number { font-size: 0.8em; color: white; }
 
 .provinces-legend .monarch {color: #bb1a1a; background: transparent !important;}
 .provinces-legend .chamberlain { color: #d5b34d; background: transparent !important; }
-.provinces-legend .you { color: #458631; background: transparent !important; }
+.provinces-legend .protected { color: #99ffbb; background: transparent !important; }
 
 .provinces-legend { font-size: 0.8em; }
 .provinces-legend .invitations { font-size: 1.2em; }
