@@ -8,11 +8,10 @@
 body {
     color: white;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-	background: url(./images/bgtemp.jpg) no-repeat fixed;
+    background: url(./images/bgtemp.jpg) no-repeat fixed;
 }
 
 
-.game-content p { background: #958c6d; display: block; padding: 12px; border: 1px solid #444235; margin-left: 0px; margin-right: 0px; margin-top: 0px;}
 .reportable img { margin: 10px; border: 1px solid black; border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px;}
 .two-column-stats tbody {border: 1px solid #444235;}
 .page-summary {background: #958c6d; display: block; padding: 12px; border: 1px solid #444235; margin-left: 0px; margin-right: 0px; margin-top: 0px;}
@@ -156,21 +155,24 @@ font-size: 15px }
 #resource-bar .positive { color: #87ac24; /* GOODGREEN #87ac24 */ }
 #resource-bar .negative { color: #ea5050; /* BADRED #ea5050 */ }
 
+
 .game-content h2 { background: #444235; }
 .game-content h3 { font-size: 20px; }
 .game-content form { font-size: 12px; font-weight: bolder; }
-
-form ul.errorlist { border: 1px solid #333; background: #8d4436; color: white; padding: 3px; margin: 3px 0px;}
-
 .game-content form.change-kingdom { font-size: 14px; background: #444235;}
-.game-content form.change-kingdom .change-kingdom-heading { margin-top: 0px; padding: 6px; font-size: 20px; font-family: Ubuntu Condensed; 
-line-height: 24px;}
+.game-content form.change-kingdom .change-kingdom-heading { margin-top: 0px; padding: 6px; font-size: 20px; font-family: Ubuntu Condensed; line-height: 24px;}
 .game-content form.change-kingdom .change-kingdom-nav a { width: 80px; }
 .game-content form.change-kingdom #royal-commands { border-top: 1px dotted #3B4041; }
 .game-content form.change-kingdom #royal-commands table tbody td { font-weight: normal; }
 .game-content form.change-kingdom .change-kingdom-form { width: 210px; font-size: 20px; }
 .game-content form.change-kingdom.change-kingdom-target { border-top: 1px solid; border-color: #555; }
+/* .game-content p { background: #958c6d; display: block; padding: 12px; border: 1px solid #444235; margin-left: 0px; margin-right: 0px; margin-top: 0px;} */
+.game-content p { background: #c1c1c1; margin: 0; padding: 20px; color: #000; }
+.game-content p:first-child { border-top-right-radius:4px; }
 
+
+
+form ul.errorlist { border: 1px solid #333; background: #8d4436; color: white; padding: 3px; margin: 3px 0px;}
 form input[type=text],
 form input[type=password] {
     border-width: 1px;
