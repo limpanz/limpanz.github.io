@@ -279,7 +279,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .their-meter-value { background-image: url(./images/hostile_meter/down.png); }
 .war-button-meter-value { background-image: url(./images/hostile_meter/war.png); }
 
-#hostility-meter-purchase {background: #958c6d; margin-top: 0px; }
+#hostility-meter-purchase {background: #958c6d; padding-top: 10px; }
 #hostility-meter-example { background-image: url(./images/hostile_meter/example.png); }
 #id_taunt_top_image { color: white; }
 
