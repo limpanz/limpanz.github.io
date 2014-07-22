@@ -243,7 +243,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .unused-slot { color: #B0B0B0; }
 .intel-fresh { color: #99ffbb; }
 .at-war, .intel-rotten { color: #bb1a1a;}
-.protected { color: #1e9883; }
+.protected { color: #005e4d; }
 
 /* .monarch { color: #bb1a1a; font-weight: bold;} */
 .monarch { background: #b7684c !important; color: #bb1a1a; font-weight: bold;}
