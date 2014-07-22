@@ -248,8 +248,10 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 /* .monarch { color: #bb1a1a; font-weight: bold;} */
 .monarch { background: #b7684c !important; color: #bb1a1a; font-weight: bold;}
 .chamberlain { background: #d5b34d !important; color: #86680c; font-weight: bold; }
-
 .you {font-weight: bold;}
+
+.monarch .province-name a {color: #bb1a1a !important;}
+.chamberlain .province-name a {color: #86680c !important;}
 .you .province-name a {color: white !important;}
 
 /* 
