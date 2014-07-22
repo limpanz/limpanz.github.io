@@ -249,7 +249,8 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .monarch { background: #b7684c !important; color: #bb1a1a; font-weight: bold;}
 .chamberlain { background: #d5b34d !important; color: #86680c; font-weight: bold; }
 
-.you a {color: white;}
+.you {font-weight: bold;}
+.you .province-name a {color: white !important;}
 
 /* 
 .you { background: #74bd5d !important; color: #458631; font-weight: bold; }
