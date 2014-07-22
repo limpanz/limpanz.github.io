@@ -382,6 +382,6 @@ body.wysiwyg { font-size: 12px; background: white; color: black; }
 
 
 .campaigns .campaign-message-intro { font-size: 14px; }
-.province-name a { color: #dedede; }
+.province-name a { color: #ddd; }
 .province-name a:hover { color: #fff; }
 
