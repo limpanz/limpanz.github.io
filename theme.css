@@ -16,6 +16,7 @@ body {
 .reportable p { border: 0px; background: transparent !important; }
 .mail-view p { border: 0px; background: transparent !important; }
 .mail-view td { border: 0px; background: transparent !important; }
+.mail-view div { border: 0px; background: transparent !important; }
 .two-column-stats tbody {border: 1px solid #444235;}
 .page-summary {background: #958c6d; display: block; padding: 12px; border: 1px solid #444235; margin-left: 0px; margin-right: 0px; margin-top: 0px;}
 .game-content img { margin: 10px; border: 1px solid black; border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px;}
