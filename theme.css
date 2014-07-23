@@ -153,7 +153,7 @@ font-size: 15px }
 #resource-bar thead th { width: 98px; }
 
 #resource-bar .positive { color: #005a00; font-weight: bold; /* GOODGREEN #87ac24 */ }
-#resource-bar .negative { color: #8B1A1A; font-weight: bold;  /* BADRED #ea5050 */ }
+#resource-bar .negative { color: #EE0000; font-weight: bold;  /* BADRED #ea5050 */ }
 
 
 .game-content h2 { background: #444235; }
