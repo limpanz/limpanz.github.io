@@ -13,7 +13,7 @@ body {
 
 
 .reportable img { margin: 10px; border: 1px solid black; border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px;}
-.reportable p { border-top: 0px; background: transparent !important; }
+.reportable p { border: 0px; background: transparent !important; }
 .two-column-stats tbody {border: 1px solid #444235;}
 .page-summary {background: #958c6d; display: block; padding: 12px; border: 1px solid #444235; margin-left: 0px; margin-right: 0px; margin-top: 0px;}
 .game-content img { margin: 10px; border: 1px solid black; border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px;}
@@ -240,7 +240,7 @@ td.news-obituaries { background-image: url(./images/kingdom_news/obituaries.png)
 td.news-relations { background-image: url(./images/kingdom_news/relations.png); }
 td.news-province-modification { background-image: url(./images/kingdom_news/province_modification.png); }
 
-.mail-view {background: #958c6d; }
+.mail-view {background: #958c6d; border: 0px; }
 
 
 /* KINGDOM DETAILS */
