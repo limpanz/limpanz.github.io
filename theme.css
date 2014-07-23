@@ -152,8 +152,8 @@ font-size: 15px }
 #resource-bar tbody th { font-size: 12px; font-weight: bolder; }
 #resource-bar thead th { width: 98px; }
 
-#resource-bar .positive { color: #87ac24; /* GOODGREEN #87ac24 */ }
-#resource-bar .negative { color: #ea5050; /* BADRED #ea5050 */ }
+#resource-bar .positive { background: #87ac24 !important; color: white; font-weight: bold; /* GOODGREEN #87ac24 */ }
+#resource-bar .negative { background: #ea5050 !important; color: white; font-weight: bold;  /* BADRED #ea5050 */ }
 
 
 .game-content h2 { background: #444235; }
